@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block title %}たんいマスター — ユーザーえらび{% endblock %}
+
+{% block content %}
+<section class="home">
+  <div class="home__hero">
+    <h1 class="home__title">たんいマスター</h1>
+    <p class="home__subtitle">だれが やるかな？</p>
+  </div>
+
+  {% if users %}
+  <section class="home__section">
+    <h2 class="home__section-title">えらんでね</h2>
+    <div class="user-grid">
+      {% for user in users %}
+      <form method="post" action="{{ url_for('main.select_user') }}" class="user-card-form">
+        <input type="hidden" name="user_id" value="{{ user.id }}">
+        <button type="submit" class="user-card">
+          <span class="user-card__avatar">{{ avatars | selectattr('id', 'equalto', user.avatar) | map(attribute='emoji') | first | default('🐶') }}</span>
+          <span class="user-card__name">{{ user.name }}</span>
+        </button>
+      </form>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if users | length < 5 %}
+  <section class="home__section home__section--create">
+    <h2 class="home__section-title">あたらしいひとを つくる</h2>
+    <form method="post" action="{{ url_for('main.create_user_route') }}" class="create-user-form">
+      <div class="create-user-form__avatar-row">
+        {% for avatar in avatars %}
+        <label class="avatar-option">
+          <input type="radio" name="avatar_id" value="{{ avatar.id }}"
+                 {% if loop.first %}checked{% endif %}
+                 class="avatar-option__radio">
+          <span class="avatar-option__emoji">{{ avatar.emoji }}</span>
+        </label>
+        {% endfor %}
+      </div>
+      <div class="create-user-form__name-row">
+        <input type="text" name="name" placeholder="なまえを いれてね"
+               maxlength="10" required
+               class="create-user-form__input">
+        <button type="submit" class="btn btn--primary">つくる</button>
+      </div>
+    </form>
+  </section>
+  {% endif %}
+
+  {% if users | length > 1 %}
+  <section class="home__section home__section--delete">
+    <details class="delete-user-details">
+      <summary class="delete-user-details__summary">ユーザーを けす（ほごしゃむけ）</summary>
+      <div class="delete-user-list">
+        {% for user in users %}
+        {% if user.id != 1 %}
+        <form method="post" action="{{ url_for('main.delete_user_route') }}"
+              class="delete-user-form"
+              onsubmit="return confirm('{{ user.name }} を けしますか？')">
+          <input type="hidden" name="user_id" value="{{ user.id }}">
+          <span class="delete-user-form__name">{{ user.name }}</span>
+          <button type="submit" class="btn btn--danger btn--small">けす</button>
+        </form>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+  </section>
+  {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}クイズ — {{ category.name }} レベル{{ level }} — たんいマスター{% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/quiz.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="quiz-page" style="--category-color: {{ category.color }}">
+  {% set show_back = true %}
+  {% set back_url = url_for('main.level_select', category_id=category.id) %}
+  {% set current_page = category.name + " レベル" + level|string %}
+  {% include "components/_nav.html" %}
+
+  <div class="quiz-page__header">
+    <div class="quiz-page__info">
+      <span class="quiz-page__category">{{ category.name }}</span>
+      <span class="quiz-page__level">
+        {% for i in range(level) %}★{% endfor %}
+      </span>
+    </div>
+    <div class="quiz-progress" id="quiz-progress">
+      <span class="quiz-progress__current" id="progress-current">1</span>
+      <span class="quiz-progress__sep">/</span>
+      <span class="quiz-progress__total" id="progress-total">5</span>
+      <span class="quiz-progress__label">もん</span>
+    </div>
+    <div class="quiz-score" id="quiz-score">
+      <span class="quiz-score__label">せいかい：</span>
+      <span class="quiz-score__value" id="score-value">0</span>
+    </div>
+  </div>
+
+  <div class="quiz-card" id="quiz-card">
+    <div class="quiz-card__loading" id="quiz-loading">
+      <p>もんだいを よみこみちゅう…</p>
+    </div>
+    <div class="quiz-card__question" id="question-container" hidden>
+      <p class="quiz-card__question-text" id="question-text"></p>
+      <div class="quiz-card__image-wrap" id="question-image-wrap" hidden>
+        <img id="question-image" src="" alt="もんだいのえ" class="quiz-card__image">
+      </div>
+      <div class="quiz-card__options" id="options-container"></div>
+    </div>
+  </div>
+
+  {% include "components/_feedback.html" %}
+
+  <div class="quiz-hint" id="quiz-hint" hidden>
+    <button class="btn btn--hint" id="btn-hint" type="button">💡 ヒントを みる</button>
+    <p class="quiz-hint__text" id="hint-text" hidden></p>
+  </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script type="module">
+  import { startQuiz } from "{{ url_for('static', filename='js/quiz-engine.js') }}";
+  import "{{ url_for('static', filename='js/renderers/choice.js') }}";
+  import "{{ url_for('static', filename='js/renderers/fill_unit.js') }}";
+  import "{{ url_for('static', filename='js/renderers/conversion.js') }}";
+
+  startQuiz({
+    categoryId: "{{ category.id }}",
+    level: {{ level }},
+    resultUrl: "{{ url_for('quiz.result', category_id=category.id, level=level) }}",
+    apiQuizUrl: "{{ url_for('quiz.api_quiz', category_id=category.id, level=level) }}",
+    apiAnswerUrl: "{{ url_for('quiz.api_answer') }}",
+  });
+</script>
+{% endblock %}

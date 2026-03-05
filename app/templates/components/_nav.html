@@ -1,0 +1,17 @@
+<nav class="breadcrumb-nav" aria-label="ナビゲーション">
+  <a href="{{ url_for('main.home') }}" class="breadcrumb-nav__item">
+    <img src="{{ url_for('static', filename='images/common/home.svg') }}" alt="" class="breadcrumb-nav__icon">
+    ホーム
+  </a>
+  {% if show_back %}
+  <span class="breadcrumb-nav__separator">›</span>
+  <a href="{{ back_url }}" class="breadcrumb-nav__item breadcrumb-nav__item--back">
+    <img src="{{ url_for('static', filename='images/common/back.svg') }}" alt="" class="breadcrumb-nav__icon">
+    もどる
+  </a>
+  {% endif %}
+  {% if current_page %}
+  <span class="breadcrumb-nav__separator">›</span>
+  <span class="breadcrumb-nav__current">{{ current_page }}</span>
+  {% endif %}
+</nav>

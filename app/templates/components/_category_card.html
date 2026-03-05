@@ -1,0 +1,18 @@
+<a href="{{ url_for('main.level_select', category_id=category.id) }}"
+   class="category-card"
+   style="--category-color: {{ category.color }}">
+  <div class="category-card__icon-wrap">
+    <img src="{{ url_for('static', filename='images/common/' + category.icon) }}"
+         alt="{{ category.name }}"
+         class="category-card__icon">
+  </div>
+  <div class="category-card__body">
+    <h2 class="category-card__name">{{ category.name }}</h2>
+    <p class="category-card__desc">{{ category.description }}</p>
+    <div class="category-card__levels">
+      {% for lvl in category.levels %}
+        <span class="level-star">{% for i in range(lvl) %}★{% endfor %}</span>
+      {% endfor %}
+    </div>
+  </div>
+</a>

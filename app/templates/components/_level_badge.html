@@ -1,0 +1,4 @@
+<span class="level-badge level-badge--{{ level }}" aria-label="レベル{{ level }}">
+  {% for i in range(level) %}★{% endfor %}
+  {% for i in range(max_level - level) %}<span class="level-badge__empty">☆</span>{% endfor %}
+</span>

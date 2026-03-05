@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}レベルをえらぼう — {{ category.name }} — たんいマスター{% endblock %}
+
+{% block content %}
+<section class="level-select-page" style="--category-color: {{ category.color }}">
+  {% set show_back = true %}
+  {% set back_url = url_for('main.category_list') %}
+  {% set current_page = category.name %}
+  {% include "components/_nav.html" %}
+
+  <div class="level-select-page__header">
+    <img src="{{ url_for('static', filename='images/common/' + category.icon) }}"
+         alt="{{ category.name }}"
+         class="level-select-page__icon">
+    <h1 class="level-select-page__title">{{ category.name }}</h1>
+    <p class="level-select-page__desc">{{ category.description }}</p>
+  </div>
+
+  <h2 class="level-select-page__subtitle">レベルを えらんでね</h2>
+
+  <div class="level-grid">
+    {% for lvl in category.levels %}
+    {% set is_cleared = lvl in cleared_levels %}
+    <a href="{{ url_for('quiz.quiz', category_id=category.id, level=lvl) }}"
+       class="level-card level-card--{{ lvl }} {% if is_cleared %}level-card--cleared{% endif %}">
+      {% if is_cleared %}
+      <div class="level-card__clear-mark">✓ クリア！</div>
+      {% endif %}
+      <div class="level-card__stars">
+        {% for i in range(lvl) %}★{% endfor %}
+        {% for i in range(category.levels|length - lvl) %}<span class="level-card__star-empty">☆</span>{% endfor %}
+      </div>
+      <div class="level-card__num">レベル {{ lvl }}</div>
+      <div class="level-card__label">
+        {% if lvl == 1 %}かんたん{% elif lvl == 2 %}ふつう{% else %}むずかしい{% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

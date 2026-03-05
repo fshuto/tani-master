@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}きょうのチャレンジ — たんいマスター{% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/quiz.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="daily-page">
+  {% set show_back = true %}
+  {% set back_url = url_for('main.home') %}
+  {% set current_page = "きょうのチャレンジ" %}
+  {% include "components/_nav.html" %}
+
+  <h1 class="page-title">⭐ きょうのチャレンジ</h1>
+
+  {% if question %}
+  <div class="daily-question-wrap">
+    <div class="quiz-card" id="daily-quiz-card">
+      <p class="quiz-card__question-text">{{ question.question }}</p>
+      <div class="quiz-card__options" id="daily-options">
+        {% for option in question.options %}
+        <button class="quiz-option"
+                data-index="{{ loop.index0 }}"
+                data-answer="{{ question.answer_index }}"
+                data-explanation="{{ question.explanation }}">
+          {{ option.text }}
+        </button>
+        {% endfor %}
+      </div>
+    </div>
+    {% include "components/_feedback.html" %}
+  </div>
+  {% else %}
+  <p class="daily-page__empty">きょうの もんだいが みつかりませんでした。</p>
+  {% endif %}
+
+  <div class="daily-actions">
+    <a href="{{ url_for('main.category_list') }}" class="btn btn--primary">もっと もんだいを やる</a>
+  </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script type="module">
+  import { initDailyChallenge } from "{{ url_for('static', filename='js/quiz-engine.js') }}";
+  import "{{ url_for('static', filename='js/renderers/choice.js') }}";
+  initDailyChallenge({
+    apiAnswerUrl: "{{ url_for('quiz.api_answer') }}",
+    categoryId: "{{ category_id }}",
+    level: {{ level }},
+  });
+</script>
+{% endblock %}

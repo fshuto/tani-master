@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}{{ module.name }} — たいけんコーナー — たんいマスター{% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/explore.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="explore-module-page">
+  {% set show_back = true %}
+  {% set back_url = url_for('explore.explore_list') %}
+  {% set current_page = module.name %}
+  {% include "components/_nav.html" %}
+
+  <h1 class="page-title">{{ module.name }}</h1>
+  <p class="page-desc">{{ module.description }}</p>
+
+  <div class="explore-module__container" id="explore-module-container">
+    <p class="explore-module__loading">よみこみちゅう…</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script type="module">
+  import { init } from "{{ url_for('static', filename=module.script) }}";
+  init(document.getElementById('explore-module-container'));
+</script>
+{% endblock %}

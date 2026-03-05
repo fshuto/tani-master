@@ -1,0 +1,11 @@
+<div class="stamp-card {% if stamp.id in unlocked %}stamp-card--unlocked{% else %}stamp-card--locked{% endif %}">
+  {% if stamp.id in unlocked %}
+    <img src="{{ url_for('static', filename='images/' + stamp.image) }}"
+         alt="{{ stamp.name }}"
+         class="stamp-card__image">
+    <p class="stamp-card__name">{{ stamp.name }}</p>
+  {% else %}
+    <div class="stamp-card__locked-icon">🔒</div>
+    <p class="stamp-card__name stamp-card__name--locked">？？？</p>
+  {% endif %}
+</div>

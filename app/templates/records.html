@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}きろく — たんいマスター{% endblock %}
+
+{% block content %}
+<section class="records-page">
+  {% set show_back = true %}
+  {% set back_url = url_for('main.home') %}
+  {% set current_page = "きろく" %}
+  {% include "components/_nav.html" %}
+
+  <h1 class="page-title">きろく</h1>
+
+  {% if stats %}
+  <section class="records-section">
+    <h2 class="records-section__title">カテゴリべつ せいかいりつ</h2>
+    <div class="stats-list">
+      {% for s in stats %}
+      <div class="stats-item">
+        <div class="stats-item__header">
+          <span class="stats-item__name">{{ s.name }}</span>
+          <span class="stats-item__count">{{ s.correct }} / {{ s.total }} もん</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-bar__fill" style="width: {{ (s.rate * 100) | int }}%"></div>
+        </div>
+        <div class="stats-item__rate">{{ (s.rate * 100) | int }}%</div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="records-section">
+    <h2 class="records-section__title">さいきんの きろく</h2>
+    {% if history %}
+    <div class="records-list">
+      {% for record in history[:20] %}
+      <div class="record-item record-item--{% if record.is_correct %}correct{% else %}incorrect{% endif %}">
+        <span class="record-item__mark">{% if record.is_correct %}⭕{% else %}❌{% endif %}</span>
+        <span class="record-item__category">{{ record.category }}</span>
+        <span class="record-item__level">レベル{{ record.level }}</span>
+        <span class="record-item__date">{{ record.answered_at[:10] }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="records-empty">
+      <p>まだ きろくが ないよ。もんだいを やってみよう！</p>
+      <a href="{{ url_for('main.category_list') }}" class="btn btn--primary">もんだいを やる</a>
+    </div>
+    {% endif %}
+  </section>
+
+  <div class="records-actions">
+    <a href="{{ url_for('progress.rewards') }}" class="btn btn--rewards">⭐ ごほうびを みる</a>
+  </div>
+</section>
+{% endblock %}

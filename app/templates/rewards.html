@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}ごほうび — たんいマスター{% endblock %}
+
+{% block content %}
+<section class="rewards-page">
+  {% set show_back = true %}
+  {% set back_url = url_for('main.home') %}
+  {% set current_page = "ごほうび" %}
+  {% include "components/_nav.html" %}
+
+  <h1 class="page-title">ごほうび</h1>
+
+  {% set stamp_count = stamps | selectattr('id', 'in', unlocked) | list | length %}
+  <div class="rewards-summary">
+    <span class="rewards-summary__count">{{ stamp_count }} / {{ stamps | length }}</span>
+    <span class="rewards-summary__label">スタンプ かくとく</span>
+    <div class="progress-bar rewards-summary__bar">
+      <div class="progress-bar__fill"
+           style="width: {% if stamps %}{{ ((stamp_count / stamps|length) * 100)|int }}{% else %}0{% endif %}%">
+      </div>
+    </div>
+  </div>
+
+  <section class="rewards-section">
+    <h2 class="rewards-section__title">スタンプ</h2>
+    <div class="stamps-grid">
+      {% for stamp in stamps %}
+        {% include "components/_stamp_card.html" %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="rewards-section">
+    <h2 class="rewards-section__title">ひみつの ごほうび</h2>
+    {% set secret_count = secret_rewards | selectattr('id', 'in', unlocked) | list | length %}
+    <p class="rewards-section__hint">
+      {% if secret_count == 0 %}
+        もっとたくさん もんだいを こたえると でてくるかも…？
+      {% else %}
+        {{ secret_count }} / {{ secret_rewards | length }} かいじょ！
+      {% endif %}
+    </p>
+    <div class="stamps-grid stamps-grid--secret">
+      {% for stamp in secret_rewards %}
+        {% include "components/_stamp_card.html" %}
+      {% endfor %}
+    </div>
+  </section>
+</section>
+{% endblock %}

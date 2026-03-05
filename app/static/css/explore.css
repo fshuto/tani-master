@@ -1,0 +1,106 @@
+/* ===========================
+   たいけんコーナー スタイル
+   =========================== */
+
+.explore-module-page { display: flex; flex-direction: column; gap: 16px; }
+.explore-module__container {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-md);
+  min-height: 300px;
+}
+.explore-module__loading {
+  text-align: center;
+  color: var(--color-text-light);
+  padding: 40px 0;
+  font-size: 1.1rem;
+}
+
+/* ---------- とけいモジュール ---------- */
+.clock-module { display: flex; flex-direction: column; align-items: center; gap: 24px; }
+.clock-face {
+  position: relative;
+  width: 240px;
+  height: 240px;
+}
+.clock-face svg { width: 100%; height: 100%; }
+
+/* ---------- ものさしモジュール ---------- */
+.ruler-module { display: flex; flex-direction: column; align-items: center; gap: 24px; }
+.ruler-svg { width: 100%; max-width: 560px; }
+
+/* ---------- はかりモジュール ---------- */
+.scale-module {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.scale-module__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.scale-svg {
+  width: 100%;
+  max-width: 400px;
+}
+.scale-module__weight-info {
+  font-size: 0.95rem;
+  color: var(--color-text-light);
+  text-align: center;
+  min-height: 1.4em;
+}
+.scale-module__result {
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-align: center;
+  color: var(--color-text-light);
+  min-height: 1.8em;
+}
+.scale-module__result--left  { color: #4ECDC4; }
+.scale-module__result--right { color: #FF8A80; }
+.scale-module__result--equal { color: var(--color-secondary); }
+
+.scale-module__panel {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  justify-content: center;
+}
+.scale-panel {
+  flex: 1;
+  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.scale-panel__title {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-text-light);
+}
+.scale-panel__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+}
+.scale-item-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 4px;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--color-border);
+  background: var(--color-surface);
+  font-family: var(--font-family);
+  cursor: pointer;
+  transition: border-color var(--transition), background var(--transition);
+}
+.scale-item-btn:hover { border-color: var(--color-primary); background: #e0f7f5; }
+.scale-item-btn--active { border-color: var(--color-primary); background: #e0f7f5; }
+.scale-item-btn__emoji { font-size: 1.8rem; line-height: 1; }
+.scale-item-btn__name  { font-size: 0.75rem; font-weight: 700; }

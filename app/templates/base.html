@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}たんいマスター{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/animations.css') }}">
+  {% block extra_css %}{% endblock %}
+</head>
+<body class="app-body">
+
+  <header class="app-header">
+    <div class="app-header__inner">
+      <a href="{{ url_for('main.home') }}" class="app-header__logo">
+        たんいマスター
+      </a>
+      <nav class="app-header__nav">
+        <a href="{{ url_for('main.category_list') }}" class="app-header__nav-link">もんだい</a>
+        <a href="{{ url_for('explore.explore_list') }}" class="app-header__nav-link">たいけん</a>
+        <a href="{{ url_for('progress.records') }}" class="app-header__nav-link">きろく</a>
+        <a href="{{ url_for('progress.daily') }}" class="app-header__nav-link">チャレンジ</a>
+        <a href="{{ url_for('main.home') }}" class="app-header__user-link">👤 かえる</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="app-main">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-messages">
+          {% for category, message in messages %}
+            <div class="flash-message flash-message--{{ category }}">{{ message }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="app-footer">
+    <div class="app-footer__inner">
+      <a href="{{ url_for('main.home') }}" class="app-footer__link">
+        <img src="{{ url_for('static', filename='images/common/home.svg') }}" alt="ホーム" class="app-footer__icon">
+        ホーム
+      </a>
+      <a href="{{ url_for('admin.admin') }}" class="app-footer__link app-footer__link--admin">
+        ほごしゃ
+      </a>
+    </div>
+  </footer>
+
+  <script type="module" src="{{ url_for('static', filename='js/main.js') }}"></script>
+  {% block extra_js %}{% endblock %}
+</body>
+</html>

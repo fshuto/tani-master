@@ -1,0 +1,81 @@
+/* ===========================
+   フィードバック・アニメーション
+   =========================== */
+
+/* ---------- フェードイン ---------- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeIn 0.25s ease forwards; }
+
+/* ---------- 正解パーティクル ---------- */
+@keyframes particle-rise {
+  0%   { transform: translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateY(-120px) scale(0.5); opacity: 0; }
+}
+.particle {
+  position: fixed;
+  pointer-events: none;
+  font-size: 1.5rem;
+  z-index: 9999;
+  animation: particle-rise 0.9s ease-out forwards;
+}
+
+/* ---------- 正解サークル バウンス ---------- */
+@keyframes correct-bounce {
+  0%   { transform: scale(0.5); opacity: 0; }
+  60%  { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.feedback__circle--correct.is-active {
+  animation: correct-bounce 0.4s ease forwards;
+}
+
+/* ---------- 不正解 シェイク ---------- */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25%       { transform: translateX(-8px); }
+  75%       { transform: translateX(8px); }
+}
+.feedback__circle--incorrect.is-active {
+  animation: shake 0.4s ease;
+}
+
+/* ---------- オプションボタン 正解ハイライト ---------- */
+@keyframes correct-flash {
+  0%   { box-shadow: 0 0 0 0 rgba(123, 198, 126, 0.6); }
+  100% { box-shadow: 0 0 0 16px rgba(123, 198, 126, 0); }
+}
+.quiz-option--correct {
+  animation: correct-flash 0.5s ease;
+}
+
+/* ---------- レベルアップ演出 ---------- */
+@keyframes levelup-pop {
+  0%   { transform: scale(0) rotate(-20deg); opacity: 0; }
+  60%  { transform: scale(1.15) rotate(5deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+.levelup-badge {
+  animation: levelup-pop 0.5s ease forwards;
+}
+
+/* ---------- スタンプ獲得 ---------- */
+@keyframes stamp-appear {
+  0%   { transform: scale(0) rotate(-15deg); opacity: 0; }
+  70%  { transform: scale(1.2) rotate(5deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+.stamp-new {
+  animation: stamp-appear 0.6s ease forwards;
+}
+
+/* ---------- ページ遷移（軽量フェード） ---------- */
+@keyframes page-enter {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.app-main {
+  animation: page-enter 0.2s ease;
+}

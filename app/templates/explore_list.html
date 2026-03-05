@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}たいけんコーナー — たんいマスター{% endblock %}
+
+{% block content %}
+<section class="explore-list-page">
+  {% set show_back = true %}
+  {% set back_url = url_for('main.home') %}
+  {% set current_page = "たいけんコーナー" %}
+  {% include "components/_nav.html" %}
+
+  <h1 class="page-title">たいけんコーナー</h1>
+  <p class="page-desc">インタラクティブに まなぼう！</p>
+
+  <div class="explore-grid">
+    {% for module in modules %}
+    <a href="{{ url_for('explore.explore_module', module_id=module.id) }}"
+       class="explore-card">
+      <div class="explore-card__icon-wrap">
+        <img src="{{ url_for('static', filename='images/common/' + module.icon) }}"
+             alt="{{ module.name }}"
+             class="explore-card__icon">
+      </div>
+      <div class="explore-card__body">
+        <h2 class="explore-card__name">{{ module.name }}</h2>
+        <p class="explore-card__desc">{{ module.description }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

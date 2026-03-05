@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}カテゴリをえらぼう — たんいマスター{% endblock %}
+
+{% block content %}
+<section class="category-list-page">
+  {% set show_back = true %}
+  {% set back_url = url_for('main.home') %}
+  {% set current_page = "カテゴリをえらぼう" %}
+  {% include "components/_nav.html" %}
+
+  {% if current_user %}
+  <div class="current-user-badge">
+    <span class="current-user-badge__name">{{ current_user.name }} さん</span>
+    <a href="{{ url_for('main.home') }}" class="current-user-badge__switch">かえる</a>
+  </div>
+  {% endif %}
+
+  <h1 class="page-title">カテゴリを えらんでね</h1>
+
+  <div class="category-grid">
+    {% for category in categories %}
+      {% include "components/_category_card.html" %}
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <path d="M10 12h28l-4 24H14L10 12z" fill="#AED6F1" stroke="#45B7D1" stroke-width="2"/>
+  <line x1="14" y1="20" x2="34" y2="20" stroke="#45B7D1" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="15" y1="27" x2="33" y2="27" stroke="#45B7D1" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <path d="M34 18 Q40 18 40 24 Q40 30 34 30" stroke="#45B7D1" stroke-width="2" fill="none"/>
+  <text x="24" y="44" text-anchor="middle" font-size="7" font-weight="bold" fill="#45B7D1">mL·L</text>
+</svg>

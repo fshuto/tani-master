@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}ほごしゃ — たんいマスター{% endblock %}
+
+{% block content %}
+<section class="admin-page">
+  {% set show_back = true %}
+  {% set back_url = url_for('main.home') %}
+  {% set current_page = "ほごしゃ" %}
+  {% include "components/_nav.html" %}
+
+  <h1 class="page-title">ほごしゃ せってい</h1>
+
+  <section class="admin-section">
+    <h2 class="admin-section__title">ユーザーべつ しんちょく</h2>
+    {% for us in user_stats %}
+    <div class="admin-user-card">
+      <div class="admin-user-card__header">
+        <span class="admin-user-card__name">{{ us.user.name }}</span>
+        <div class="admin-user-card__summary">
+          <span class="admin-summary-badge admin-summary-badge--correct">
+            ✅ {{ us.correct_total }}もん せいかい
+          </span>
+          <span class="admin-summary-badge admin-summary-badge--streak">
+            🔥 {{ us.streak }}にち れんぞく
+          </span>
+          <span class="admin-summary-badge admin-summary-badge--stamp">
+            🏅 {{ us.stamp_count }}/{{ us.stamp_total }} スタンプ
+          </span>
+        </div>
+      </div>
+
+      {% if us.stats %}
+      <div class="admin-user-card__stats">
+        {% for s in us.stats %}
+        <div class="admin-stat-row">
+          <span class="admin-stat-row__name">{{ s.name }}</span>
+          <div class="progress-bar admin-stat-row__bar">
+            <div class="progress-bar__fill" style="width: {{ (s.rate * 100)|int }}%"></div>
+          </div>
+          <span class="admin-stat-row__rate">{{ (s.rate * 100)|int }}% ({{ s.correct }}/{{ s.total }})</span>
+        </div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="admin-user-card__empty">まだ がくしゅうの きろくが ありません</p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="admin-section">
+    <h2 class="admin-section__title">カテゴリ いちらん</h2>
+    <ul class="admin-category-list">
+      {% for cat in categories %}
+      <li class="admin-category-item">
+        <span class="admin-category-item__name">{{ cat.name }}</span>
+        <span class="admin-category-item__levels">レベル: {{ cat.levels|join(', ') }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="admin-section">
+    <h2 class="admin-section__title">キャッシュ</h2>
+    <button class="btn btn--danger" id="btn-reload-cache" type="button">
+      キャッシュを クリア
+    </button>
+    <p class="admin-section__note" id="cache-message"></p>
+  </section>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script type="module">
+  const btn = document.getElementById('btn-reload-cache');
+  btn.addEventListener('click', async () => {
+    const res = await fetch('{{ url_for("admin.admin_reload_cache") }}', { method: 'POST' });
+    const data = await res.json();
+    document.getElementById('cache-message').textContent = data.message;
+  });
+</script>
+{% endblock %}

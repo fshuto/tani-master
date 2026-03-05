@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}けっか — {{ category.name }} レベル{{ level }} — たんいマスター{% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/quiz.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="result-page" style="--category-color: {{ category.color }}">
+  <div class="result-page__header">
+    <h1 class="result-page__title">
+      {% if score == total %}
+        🎉 パーフェクト！
+      {% elif score >= (total * 0.6)|int %}
+        ⭐ よくできました！
+      {% else %}
+        💪 もういちど チャレンジ！
+      {% endif %}
+    </h1>
+  </div>
+
+  <div class="result-score">
+    <div class="result-score__circle {% if score == total %}result-score__circle--perfect{% endif %}">
+      <span class="result-score__num">{{ score }}</span>
+      <span class="result-score__sep">/</span>
+      <span class="result-score__total">{{ total }}</span>
+    </div>
+    <p class="result-score__label">もん せいかい</p>
+  </div>
+
+  {% if new_achievements %}
+  <div class="result-achievements">
+    <h2 class="result-achievements__title">🏅 スタンプ かくとく！</h2>
+    <div class="result-achievements__list">
+      {% for ach in new_achievements %}
+      <div class="achievement-badge stamp-new">
+        {% if ach.image %}
+        <img src="{{ url_for('static', filename='images/' + ach.image) }}"
+             alt="{{ ach.name }}"
+             class="achievement-badge__img">
+        {% else %}
+        <div class="achievement-badge__emoji">🏅</div>
+        {% endif %}
+        <p class="achievement-badge__name">{{ ach.name }}</p>
+        <p class="achievement-badge__message">{{ ach.message }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="result-actions">
+    <a href="{{ url_for('quiz.quiz', category_id=category.id, level=level) }}"
+       class="btn btn--retry">もういちど</a>
+    {% if level < category.levels|length %}
+    <a href="{{ url_for('quiz.quiz', category_id=category.id, level=level+1) }}"
+       class="btn btn--next-level">つぎのレベルへ →</a>
+    {% else %}
+    <a href="{{ url_for('main.category_list') }}"
+       class="btn btn--category">ほかのカテゴリへ</a>
+    {% endif %}
+    <a href="{{ url_for('main.home') }}"
+       class="btn btn--home">ホームへ</a>
+  </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+{% if score == total %}
+<script type="module">
+  import { playSound } from "{{ url_for('static', filename='js/sound.js') }}";
+  playSound("levelup");
+  const PARTICLES = ["⭐","🌟","✨","🎉","🎊"];
+  for (let i = 0; i < 18; i++) {
+    setTimeout(() => {
+      const p = document.createElement("span");
+      p.className = "particle";
+      p.textContent = PARTICLES[Math.floor(Math.random() * PARTICLES.length)];
+      p.style.left = Math.random() * 100 + "vw";
+      p.style.top  = (40 + Math.random() * 30) + "vh";
+      document.body.appendChild(p);
+      setTimeout(() => p.remove(), 1000);
+    }, i * 80);
+  }
+</script>
+{% endif %}
+{% endblock %}
