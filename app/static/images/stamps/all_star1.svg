@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE66D"/>
+      <stop offset="100%" stop-color="#FF6B6B"/>
+    </radialGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="url(#bg)" stroke="#e05050" stroke-width="4"/>
+  <!-- big star -->
+  <polygon points="60,22 67,44 91,44 72,57 79,80 60,66 41,80 48,57 29,44 53,44"
+           fill="white" stroke="#FFD700" stroke-width="2"/>
+  <!-- inner star highlight -->
+  <polygon points="60,30 65,44 79,44 68,52 73,66 60,58 47,66 52,52 41,44 55,44"
+           fill="#FFD700" opacity="0.6"/>
+  <text x="60" y="105" text-anchor="middle" font-size="14" font-weight="bold" fill="white">ぜんぶ クリア！</text>
+</svg>

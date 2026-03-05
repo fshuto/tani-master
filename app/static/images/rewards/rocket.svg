@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <circle cx="80" cy="80" r="76" fill="#2C3E50" stroke="#1a252f" stroke-width="4"/>
+  <!-- rocket body -->
+  <path d="M80 22 Q96 36 96 78 L64 78 Q64 36 80 22Z" fill="#E74C3C"/>
+  <!-- rocket nose -->
+  <path d="M80 22 Q90 30 90 46 Q80 40 70 46 Q70 30 80 22Z" fill="#C0392B"/>
+  <!-- window -->
+  <circle cx="80" cy="58" r="10" fill="#3498DB" stroke="white" stroke-width="2"/>
+  <circle cx="80" cy="58" r="6" fill="#5DADE2"/>
+  <circle cx="77" cy="55" r="2" fill="white" opacity="0.6"/>
+  <!-- rocket base -->
+  <rect x="64" y="78" width="32" height="14" rx="4" fill="#C0392B"/>
+  <!-- left fin -->
+  <path d="M64 78 L46 98 L64 90Z" fill="#E74C3C"/>
+  <!-- right fin -->
+  <path d="M96 78 L114 98 L96 90Z" fill="#E74C3C"/>
+  <!-- exhaust flames -->
+  <ellipse cx="72" cy="98" rx="8" ry="14" fill="#FFD700" opacity="0.9"/>
+  <ellipse cx="80" cy="100" rx="10" ry="18" fill="#FF8C00" opacity="0.8"/>
+  <ellipse cx="88" cy="98" rx="8" ry="14" fill="#FFD700" opacity="0.9"/>
+  <ellipse cx="80" cy="104" rx="6" ry="12" fill="white" opacity="0.6"/>
+  <!-- stars -->
+  <text x="36" y="46" font-size="14" fill="white" opacity="0.8">★</text>
+  <text x="112" y="54" font-size="12" fill="white" opacity="0.8">★</text>
+  <text x="44" y="70" font-size="10" fill="white" opacity="0.6">★</text>
+  <text x="80" y="148" text-anchor="middle" font-size="13" font-weight="bold" fill="white">ロケット</text>
+</svg>

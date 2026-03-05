@@ -1,0 +1,28 @@
+{
+  "modules": [
+    {
+      "id": "clock",
+      "name": "とけい",
+      "icon": "clock.svg",
+      "description": "はりを うごかして じかんを よもう",
+      "script": "explore/clock.js",
+      "enabled": true
+    },
+    {
+      "id": "ruler",
+      "name": "ものさし",
+      "icon": "ruler.svg",
+      "description": "ものの ながさを はかってみよう",
+      "script": "explore/ruler.js",
+      "enabled": true
+    },
+    {
+      "id": "scale",
+      "name": "はかり",
+      "icon": "scale.svg",
+      "description": "おもさを くらべてみよう",
+      "script": "explore/scale.js",
+      "enabled": true
+    }
+  ]
+}

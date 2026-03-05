@@ -1,0 +1,446 @@
+{
+  "category_id": "time",
+  "levels": {
+    "1": {
+      "title": "じかんを しろう",
+      "instruction": "ただしい こたえを えらんでね",
+      "passing_score": 3,
+      "questions": [
+        {
+          "id": "tim_1_001",
+          "type": "choice",
+          "question": "1ふんは なんびょう？",
+          "image": null,
+          "options": [
+            { "text": "10びょう", "image": null },
+            { "text": "60びょう", "image": null },
+            { "text": "100びょう", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1ふん = 60びょう だよ！",
+          "hint": "とけいの はりが 1しゅうするまで なんびょう かな"
+        },
+        {
+          "id": "tim_1_002",
+          "type": "choice",
+          "question": "1じかんは なんぷん？",
+          "image": null,
+          "options": [
+            { "text": "30ふん", "image": null },
+            { "text": "60ふん", "image": null },
+            { "text": "100ふん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1じかん = 60ふん だよ！",
+          "hint": "とけいの みじかい はりが 1しゅうするまで なんぷん かな"
+        },
+        {
+          "id": "tim_1_003",
+          "type": "choice",
+          "question": "1にちは なんじかん？",
+          "image": null,
+          "options": [
+            { "text": "12じかん", "image": null },
+            { "text": "24じかん", "image": null },
+            { "text": "48じかん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1にち = 24じかん だよ！",
+          "hint": "あさおきてから つぎのあさ おきるまでの じかんは？"
+        },
+        {
+          "id": "tim_1_004",
+          "type": "choice",
+          "question": "みじかい はりが 3、ながい はりが 12を さしているとき、なんじ？",
+          "image": null,
+          "options": [
+            { "text": "3じ", "image": null },
+            { "text": "12じ", "image": null },
+            { "text": "3じ 12ふん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "みじかい はりが じを、ながい はりが ふんを あらわすよ。ながい はりが 12 = ちょうど なので 3じ！",
+          "hint": "みじかい はりが じかんを あらわすよ"
+        },
+        {
+          "id": "tim_1_005",
+          "type": "choice",
+          "question": "じかんの たんいで いちばん みじかいのは？",
+          "image": null,
+          "options": [
+            { "text": "びょう", "image": null },
+            { "text": "ふん", "image": null },
+            { "text": "じかん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "びょう が いちばん みじかい たんいだよ！",
+          "hint": "びょう < ふん < じかん の じゅんだよ"
+        },
+        {
+          "id": "tim_1_006",
+          "type": "choice",
+          "question": "みじかい はりが 5、ながい はりが 12を さしているとき、なんじ？",
+          "image": null,
+          "options": [
+            { "text": "5じ", "image": null },
+            { "text": "12じ", "image": null },
+            { "text": "5じ 12ふん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "ながい はりが 12 = ちょうど。みじかい はりの 5じ だよ！",
+          "hint": "みじかい はりが じを あらわすよ"
+        },
+        {
+          "id": "tim_1_007",
+          "type": "choice",
+          "question": "2ふんは なんびょう？",
+          "image": null,
+          "options": [
+            { "text": "20びょう", "image": null },
+            { "text": "120びょう", "image": null },
+            { "text": "200びょう", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1ふん = 60びょう。2ふん = 120びょうだよ！",
+          "hint": "1ふん = 60びょう × 2 だよ"
+        },
+        {
+          "id": "tim_1_008",
+          "type": "choice",
+          "question": "1しゅうかんは なんにち？",
+          "image": null,
+          "options": [
+            { "text": "5にち", "image": null },
+            { "text": "7にち", "image": null },
+            { "text": "10にち", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1しゅうかん = 7にちだよ！ げつ・か・すい・もく・きん・ど・にちだよ",
+          "hint": "よう びを かぞえてみよう"
+        },
+        {
+          "id": "tim_1_009",
+          "type": "choice",
+          "question": "いちばん みじかい じかんは？",
+          "image": null,
+          "options": [
+            { "text": "1じかん", "image": null },
+            { "text": "10ふん", "image": null },
+            { "text": "100びょう", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "100びょう ≈ 1ふん40びょう。10ふん より みじかいよ！",
+          "hint": "びょう はとても みじかい たんいだよ"
+        },
+        {
+          "id": "tim_1_010",
+          "type": "choice",
+          "question": "みじかい はりが 9、ながい はりが 12を さしているとき、なんじ？",
+          "image": null,
+          "options": [
+            { "text": "9じ", "image": null },
+            { "text": "12じ", "image": null },
+            { "text": "9じ 12ふん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "ながい はりが 12 = ちょうど。みじかい はりの 9じ だよ！",
+          "hint": "みじかい はりが じを あらわすよ"
+        }
+      ]
+    },
+    "2": {
+      "title": "じかんを よもう",
+      "instruction": "とけいの じかんを こたえてね",
+      "passing_score": 4,
+      "questions": [
+        {
+          "id": "tim_2_001",
+          "type": "choice",
+          "question": "みじかい はりが 7、ながい はりが 6を さしているとき、なんじなんぷん？",
+          "image": null,
+          "options": [
+            { "text": "7じ 6ふん", "image": null },
+            { "text": "7じ 30ふん", "image": null },
+            { "text": "6じ 7ふん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "ながい はりが 6 = 30ぷんだから 7じ30ぷん だよ！",
+          "hint": "ながい はりが 1 = 5ふん、6 = 30ぷんだよ"
+        },
+        {
+          "id": "tim_2_002",
+          "type": "choice",
+          "question": "30ぷん まえの じかんは？ （いまは 3じ）",
+          "image": null,
+          "options": [
+            { "text": "2じ 30ふん", "image": null },
+            { "text": "3じ 30ふん", "image": null },
+            { "text": "2じ", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "3じから 30ぷんを ひくと 2じ30ぷんだよ！",
+          "hint": "3じ から 30ぷん まえに もどろう"
+        },
+        {
+          "id": "tim_2_003",
+          "type": "choice",
+          "question": "1じかん 30ぷんは なんぷん？",
+          "image": null,
+          "options": [
+            { "text": "90ふん", "image": null },
+            { "text": "130ふん", "image": null },
+            { "text": "60ふん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "1じかん = 60ふん。60 + 30 = 90ぷんだよ！",
+          "hint": "1じかん は なんぷんかな？"
+        },
+        {
+          "id": "tim_2_004",
+          "type": "choice",
+          "question": "がっこうは 8じ 30ぷんに はじまって 3じに おわる。なんじかん ある？",
+          "image": null,
+          "options": [
+            { "text": "5じかん", "image": null },
+            { "text": "6じかん 30ぷん", "image": null },
+            { "text": "7じかん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "8じ30ぷんから 3じまでは 6じかん30ぷんだよ！",
+          "hint": "8じ30ぷん → 9じ → 10じ → … と かぞえよう"
+        },
+        {
+          "id": "tim_2_005",
+          "type": "choice",
+          "question": "120びょうは なんぷん？",
+          "image": null,
+          "options": [
+            { "text": "1ふん", "image": null },
+            { "text": "2ふん", "image": null },
+            { "text": "12ふん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "60びょう = 1ふん だから 120びょう = 2ふん だよ！",
+          "hint": "60びょうで 1ふんだよ"
+        },
+        {
+          "id": "tim_2_006",
+          "type": "choice",
+          "question": "みじかい はりが 4、ながい はりが 3を さしているとき、なんじなんぷん？",
+          "image": null,
+          "options": [
+            { "text": "4じ 3ふん", "image": null },
+            { "text": "4じ 15ふん", "image": null },
+            { "text": "3じ 4ふん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "ながい はりが 3 = 15ふん だから 4じ15ふん だよ！",
+          "hint": "ながい はりが 1 = 5ふん。3 は？"
+        },
+        {
+          "id": "tim_2_007",
+          "type": "choice",
+          "question": "45ぷん ごの じかんは？ （いまは 2じ）",
+          "image": null,
+          "options": [
+            { "text": "2じ 45ふん", "image": null },
+            { "text": "3じ", "image": null },
+            { "text": "2じ 15ふん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "2じ + 45ふん = 2じ45ふん だよ！",
+          "hint": "いまの じかんに 45ぷん たそう"
+        },
+        {
+          "id": "tim_2_008",
+          "type": "choice",
+          "question": "みじかい はりが 11、ながい はりが 9を さしているとき、なんじなんぷん？",
+          "image": null,
+          "options": [
+            { "text": "11じ 9ふん", "image": null },
+            { "text": "11じ 45ふん", "image": null },
+            { "text": "9じ 11ふん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "ながい はりが 9 = 45ふん だから 11じ45ふん だよ！",
+          "hint": "ながい はりが 9 は なんぷん かな？"
+        },
+        {
+          "id": "tim_2_009",
+          "type": "choice",
+          "question": "2じかん 30ぷんは なんぷん？",
+          "image": null,
+          "options": [
+            { "text": "120ふん", "image": null },
+            { "text": "150ふん", "image": null },
+            { "text": "230ふん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "2じかん = 120ふん。120 + 30 = 150ふん だよ！",
+          "hint": "1じかん = 60ふん。2じかん は？"
+        },
+        {
+          "id": "tim_2_010",
+          "type": "choice",
+          "question": "10じ から 12じ まで なんじかん？",
+          "image": null,
+          "options": [
+            { "text": "1じかん", "image": null },
+            { "text": "2じかん", "image": null },
+            { "text": "3じかん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "10じ → 11じ → 12じ で 2じかんだよ！",
+          "hint": "10, 11, 12 と かぞえよう"
+        }
+      ]
+    },
+    "3": {
+      "title": "じかんの けいさん",
+      "instruction": "じかんを けいさんしてね",
+      "passing_score": 4,
+      "questions": [
+        {
+          "id": "tim_3_001",
+          "type": "conversion",
+          "question": "2じかん は なんびょう？",
+          "image": null,
+          "options": [
+            { "text": "120びょう", "image": null },
+            { "text": "3600びょう", "image": null },
+            { "text": "7200びょう", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "1じかん = 60ふん = 3600びょう。2じかん = 7200びょうだよ！",
+          "hint": "1じかん = 60ふん、1ふん = 60びょう だよ"
+        },
+        {
+          "id": "tim_3_002",
+          "type": "conversion",
+          "question": "180ぷんは なんじかん？",
+          "image": null,
+          "options": [
+            { "text": "2じかん", "image": null },
+            { "text": "3じかん", "image": null },
+            { "text": "4じかん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "60ふん = 1じかん。180 ÷ 60 = 3じかん だよ！",
+          "hint": "60ぷんで 1じかんだよ"
+        },
+        {
+          "id": "tim_3_003",
+          "type": "choice",
+          "question": "えいがが 1じかん45ぷん あります。15じに はじまると なんじに おわる？",
+          "image": null,
+          "options": [
+            { "text": "16じ 30ふん", "image": null },
+            { "text": "16じ 45ふん", "image": null },
+            { "text": "17じ", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "15じ + 1じかん45ぷん = 16じ45ぷんだよ！",
+          "hint": "15じ に 1じかん たすと 16じ。さらに 45ぷん たそう"
+        },
+        {
+          "id": "tim_3_004",
+          "type": "conversion",
+          "question": "3じかん30ぷん は なんぷん？",
+          "image": null,
+          "options": [
+            { "text": "180ふん", "image": null },
+            { "text": "210ふん", "image": null },
+            { "text": "330ふん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "3じかん = 180ぷん。180 + 30 = 210ぷんだよ！",
+          "hint": "3じかん は なんぷん かな？"
+        },
+        {
+          "id": "tim_3_005",
+          "type": "choice",
+          "question": "9じ15ふんから 10じ45ぷんまで なんじかんなんぷん？",
+          "image": null,
+          "options": [
+            { "text": "1じかん 15ふん", "image": null },
+            { "text": "1じかん 30ふん", "image": null },
+            { "text": "2じかん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "9じ15ぷんから 10じ45ぷんまでは 1じかん30ぷんだよ！",
+          "hint": "9じ15ぷん → 10じ15ぷん（1じかん）→ 10じ45ぷん（＋30ぷん）"
+        },
+        {
+          "id": "tim_3_006",
+          "type": "conversion",
+          "question": "90びょうは なんぷんなんびょう？",
+          "image": null,
+          "options": [
+            { "text": "1ふん 20びょう", "image": null },
+            { "text": "1ふん 30びょう", "image": null },
+            { "text": "9ふん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "60びょう = 1ふん。90 - 60 = 30びょう。1ふん30びょうだよ！",
+          "hint": "60びょう で 1ふん。のこりは なんびょう？"
+        },
+        {
+          "id": "tim_3_007",
+          "type": "choice",
+          "question": "11じ 50ふんに 20ぷん たすと なんじなんぷん？",
+          "image": null,
+          "options": [
+            { "text": "11じ 70ふん", "image": null },
+            { "text": "12じ 10ふん", "image": null },
+            { "text": "12じ 20ふん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "11じ50ふん + 20ぷん = 12じ10ぷんだよ！ 60ぷんで 1じかん くりあがり",
+          "hint": "50 + 20 = 70ぷん。60ぷんで 1じかん くりあがるよ"
+        },
+        {
+          "id": "tim_3_008",
+          "type": "conversion",
+          "question": "4じかん は なんびょう？",
+          "image": null,
+          "options": [
+            { "text": "240びょう", "image": null },
+            { "text": "14400びょう", "image": null },
+            { "text": "24000びょう", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1じかん = 3600びょう。4じかん = 14400びょうだよ！",
+          "hint": "1じかん = 60ふん = 3600びょう × 4 だよ"
+        },
+        {
+          "id": "tim_3_009",
+          "type": "choice",
+          "question": "べんきょうを 14じに はじめて 15じ30ふんに おわった。なんじかんなんぷん べんきょうした？",
+          "image": null,
+          "options": [
+            { "text": "1じかん", "image": null },
+            { "text": "1じかん 15ふん", "image": null },
+            { "text": "1じかん 30ふん", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "14じ から 15じ30ぷんまでは 1じかん30ぷんだよ！",
+          "hint": "14じ → 15じ（1じかん）→ 15じ30ぷん（+30ぷん）"
+        },
+        {
+          "id": "tim_3_010",
+          "type": "conversion",
+          "question": "2ふん 30びょうは なんびょう？",
+          "image": null,
+          "options": [
+            { "text": "130びょう", "image": null },
+            { "text": "150びょう", "image": null },
+            { "text": "230びょう", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "2ふん = 120びょう。120 + 30 = 150びょうだよ！",
+          "hint": "1ふん = 60びょう。2ふん は？"
+        }
+      ]
+    }
+  }
+}

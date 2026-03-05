@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "id": "length",
+      "name": "ながさ",
+      "icon": "ruler.svg",
+      "color": "#4ECDC4",
+      "description": "mm・cm・m をまなぼう",
+      "order": 1,
+      "levels": [1, 2, 3],
+      "enabled": true
+    },
+    {
+      "id": "volume",
+      "name": "かさ",
+      "icon": "cup.svg",
+      "color": "#45B7D1",
+      "description": "mL・dL・L をまなぼう",
+      "order": 2,
+      "levels": [1, 2, 3],
+      "enabled": true
+    },
+    {
+      "id": "weight",
+      "name": "おもさ",
+      "icon": "scale.svg",
+      "color": "#96CEB4",
+      "description": "g・kg をまなぼう",
+      "order": 3,
+      "levels": [1, 2, 3],
+      "enabled": true
+    },
+    {
+      "id": "time",
+      "name": "じかん",
+      "icon": "clock.svg",
+      "color": "#FFEAA7",
+      "description": "とけいのよみかた・びょう・ふん・じかん",
+      "order": 4,
+      "levels": [1, 2, 3],
+      "enabled": true
+    },
+    {
+      "id": "money",
+      "name": "おかね",
+      "icon": "coin.svg",
+      "color": "#DDA0DD",
+      "description": "えんのかぞえかた",
+      "order": 5,
+      "levels": [1, 2, 3],
+      "enabled": true
+    },
+    {
+      "id": "area",
+      "name": "ひろさ",
+      "icon": "square.svg",
+      "color": "#F0E68C",
+      "description": "どっちがひろい？",
+      "order": 6,
+      "levels": [1],
+      "enabled": false
+    }
+  ]
+}

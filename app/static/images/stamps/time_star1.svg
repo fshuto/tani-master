@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="56" fill="#9B59B6" stroke="#7d3f98" stroke-width="4"/>
+  <!-- clock face -->
+  <circle cx="60" cy="57" r="28" fill="white" stroke="#7d3f98" stroke-width="3"/>
+  <!-- hour ticks -->
+  <line x1="60" y1="31" x2="60" y2="37" stroke="#7d3f98" stroke-width="2"/>
+  <line x1="60" y1="77" x2="60" y2="83" stroke="#7d3f98" stroke-width="2"/>
+  <line x1="34" y1="57" x2="40" y2="57" stroke="#7d3f98" stroke-width="2"/>
+  <line x1="80" y1="57" x2="86" y2="57" stroke="#7d3f98" stroke-width="2"/>
+  <!-- hour hand (pointing up-right: 10:10 position) -->
+  <line x1="60" y1="57" x2="50" y2="43" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round"/>
+  <!-- minute hand -->
+  <line x1="60" y1="57" x2="72" y2="43" stroke="#9B59B6" stroke-width="2" stroke-linecap="round"/>
+  <!-- center dot -->
+  <circle cx="60" cy="57" r="3" fill="#4A4A4A"/>
+  <text x="60" y="100" text-anchor="middle" font-size="22" fill="#FFD700">★</text>
+</svg>

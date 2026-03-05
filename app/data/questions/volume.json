@@ -1,0 +1,438 @@
+{
+  "category_id": "volume",
+  "levels": {
+    "1": {
+      "title": "どっちがおおい？",
+      "instruction": "かさが おおいほうを えらんでね",
+      "passing_score": 3,
+      "questions": [
+        {
+          "id": "vol_1_001",
+          "type": "choice",
+          "question": "コップと バケツ、どちらに みずが おおく はいる？",
+          "image": null,
+          "options": [
+            { "text": "コップ", "image": null },
+            { "text": "バケツ", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "バケツのほうが おおく はいるよ！",
+          "hint": "おおきい いれものに おおく はいるよ"
+        },
+        {
+          "id": "vol_1_002",
+          "type": "choice",
+          "question": "1L の ペットボトルと 500mL の ペットボトル、どちらが おおい？",
+          "image": null,
+          "options": [
+            { "text": "1L", "image": null },
+            { "text": "500mL", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "1L のほうが おおいよ！ 1L = 1000mL だよ",
+          "hint": "L は える。mL は みりえる。L のほうが おおきい たんいだよ"
+        },
+        {
+          "id": "vol_1_003",
+          "type": "choice",
+          "question": "いちばん かさが おおい たんいは どれ？",
+          "image": null,
+          "options": [
+            { "text": "mL（みりえる）", "image": null },
+            { "text": "dL（でしえる）", "image": null },
+            { "text": "L（える）", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "L（える）が いちばん おおきい たんいだよ！",
+          "hint": "L > dL > mL の じゅんに おおきいよ"
+        },
+        {
+          "id": "vol_1_004",
+          "type": "choice",
+          "question": "やかんと おちゃわん、どちらに おゆが おおく はいる？",
+          "image": null,
+          "options": [
+            { "text": "やかん", "image": null },
+            { "text": "おちゃわん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "やかんのほうが おおく はいるよ！",
+          "hint": "おおきい いれものを みつけよう"
+        },
+        {
+          "id": "vol_1_005",
+          "type": "choice",
+          "question": "コップ 1ぱいと コップ 3ぱい、どちらが おおい？",
+          "image": null,
+          "options": [
+            { "text": "コップ 1ぱい", "image": null },
+            { "text": "コップ 3ぱい", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "コップ 3ぱいのほうが おおいよ！",
+          "hint": "かずが おおいほど みずも おおいよ"
+        },
+        {
+          "id": "vol_1_006",
+          "type": "choice",
+          "question": "すいとうと おちゃわん、どちらに みずが おおく はいる？",
+          "image": null,
+          "options": [
+            { "text": "すいとう", "image": null },
+            { "text": "おちゃわん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "すいとうのほうが おおく はいるよ！",
+          "hint": "まいにち がっこうに もっていく のは？"
+        },
+        {
+          "id": "vol_1_007",
+          "type": "choice",
+          "question": "2L と 500mL、どちらが おおい？",
+          "image": null,
+          "options": [
+            { "text": "2L", "image": null },
+            { "text": "500mL", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "2L = 2000mL だから 2L のほうが おおいよ！",
+          "hint": "L は mL より おおきい たんいだよ"
+        },
+        {
+          "id": "vol_1_008",
+          "type": "choice",
+          "question": "いちばん かさが すくない たんいは どれ？",
+          "image": null,
+          "options": [
+            { "text": "mL（みりえる）", "image": null },
+            { "text": "dL（でしえる）", "image": null },
+            { "text": "L（える）", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "mL（みりえる）が いちばん ちいさい たんいだよ！",
+          "hint": "L > dL > mL の じゅんだよ"
+        },
+        {
+          "id": "vol_1_009",
+          "type": "choice",
+          "question": "プールと コップ、どちらに みずが おおく はいる？",
+          "image": null,
+          "options": [
+            { "text": "プール", "image": null },
+            { "text": "コップ", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "プールは コップより ずっと おおいよ！",
+          "hint": "プールで およぐことを おもいだそう"
+        },
+        {
+          "id": "vol_1_010",
+          "type": "choice",
+          "question": "1dL と 200mL、どちらが おおい？",
+          "image": null,
+          "options": [
+            { "text": "1dL", "image": null },
+            { "text": "200mL", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1dL = 100mL だから 200mL のほうが おおいよ！",
+          "hint": "1dL = 100mL だよ"
+        }
+      ]
+    },
+    "2": {
+      "title": "たんいを おぼえよう",
+      "instruction": "ただしいたんいを えらんでね",
+      "passing_score": 4,
+      "questions": [
+        {
+          "id": "vol_2_001",
+          "type": "fill_unit",
+          "question": "ジュースの かんは だいたい 350 ____",
+          "image": null,
+          "options": [
+            { "text": "mL", "image": null },
+            { "text": "dL", "image": null },
+            { "text": "L", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "かんジュースは だいたい 350mL だよ",
+          "hint": "mL は みりえる。ちいさい たんいだよ"
+        },
+        {
+          "id": "vol_2_002",
+          "type": "fill_unit",
+          "question": "ぎゅうにゅう の パックは 1 ____",
+          "image": null,
+          "options": [
+            { "text": "mL", "image": null },
+            { "text": "dL", "image": null },
+            { "text": "L", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "ぎゅうにゅうパックは 1L（いちえる）だよ！",
+          "hint": "スーパーで みかける ぎゅうにゅう を おもいだそう"
+        },
+        {
+          "id": "vol_2_003",
+          "type": "choice",
+          "question": "1L は なん mL？",
+          "image": null,
+          "options": [
+            { "text": "10 mL", "image": null },
+            { "text": "100 mL", "image": null },
+            { "text": "1000 mL", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "1L = 1000mL だよ！",
+          "hint": "1m = 100cm みたいに かんがえよう"
+        },
+        {
+          "id": "vol_2_004",
+          "type": "choice",
+          "question": "1dL は なん mL？",
+          "image": null,
+          "options": [
+            { "text": "10 mL", "image": null },
+            { "text": "100 mL", "image": null },
+            { "text": "1000 mL", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1dL = 100mL だよ！",
+          "hint": "d（でし）は 10ぶんの1 という いみだよ"
+        },
+        {
+          "id": "vol_2_005",
+          "type": "fill_unit",
+          "question": "おふろには だいたい 200 ____ の おゆが はいる",
+          "image": null,
+          "options": [
+            { "text": "mL", "image": null },
+            { "text": "dL", "image": null },
+            { "text": "L", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "おふろには だいたい 200L も はいるよ！",
+          "hint": "おふろは とても おおきい ね"
+        },
+        {
+          "id": "vol_2_006",
+          "type": "fill_unit",
+          "question": "スポーツドリンク の ペットボトルは 500 ____",
+          "image": null,
+          "options": [
+            { "text": "mL", "image": null },
+            { "text": "dL", "image": null },
+            { "text": "L", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "コンビニで よく みる ペットボトルは 500mL だよ！",
+          "hint": "mL は みりえる。ちいさめの たんいだよ"
+        },
+        {
+          "id": "vol_2_007",
+          "type": "choice",
+          "question": "1L は なん dL？",
+          "image": null,
+          "options": [
+            { "text": "1 dL", "image": null },
+            { "text": "5 dL", "image": null },
+            { "text": "10 dL", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "1L = 10dL だよ！ 1dL = 100mL、10dL = 1000mL = 1L",
+          "hint": "1L = 1000mL、1dL = 100mL で かんがえよう"
+        },
+        {
+          "id": "vol_2_008",
+          "type": "fill_unit",
+          "question": "いけに はいっている みずは だいたい 5000 ____",
+          "image": null,
+          "options": [
+            { "text": "mL", "image": null },
+            { "text": "dL", "image": null },
+            { "text": "L", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "おおきな いけは 5000L くらい あるよ！",
+          "hint": "L は おおきな たんいだよ"
+        },
+        {
+          "id": "vol_2_009",
+          "type": "choice",
+          "question": "5dL は なん mL？",
+          "image": null,
+          "options": [
+            { "text": "50 mL", "image": null },
+            { "text": "500 mL", "image": null },
+            { "text": "5000 mL", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1dL = 100mL だから 5dL = 500mL だよ！",
+          "hint": "1dL = 100mL を おもいだそう"
+        },
+        {
+          "id": "vol_2_010",
+          "type": "fill_unit",
+          "question": "なべには だいたい 2 ____ の みずが はいる",
+          "image": null,
+          "options": [
+            { "text": "mL", "image": null },
+            { "text": "dL", "image": null },
+            { "text": "L", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "なべには だいたい 2L の みずが はいるよ！",
+          "hint": "なべで りょうりするとき おおく みずを つかうよ"
+        }
+      ]
+    },
+    "3": {
+      "title": "たんいへんかん",
+      "instruction": "おなじかさに なるものを えらんでね",
+      "passing_score": 4,
+      "questions": [
+        {
+          "id": "vol_3_001",
+          "type": "conversion",
+          "question": "2L は なん mL？",
+          "image": null,
+          "options": [
+            { "text": "200 mL", "image": null },
+            { "text": "2000 mL", "image": null },
+            { "text": "20000 mL", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "2L = 2000mL だよ！ 1L = 1000mL だから 2ばいだね",
+          "hint": "1L = 1000mL を おもいだそう"
+        },
+        {
+          "id": "vol_3_002",
+          "type": "conversion",
+          "question": "3dL は なん mL？",
+          "image": null,
+          "options": [
+            { "text": "30 mL", "image": null },
+            { "text": "300 mL", "image": null },
+            { "text": "3000 mL", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "3dL = 300mL だよ！ 1dL = 100mL だから 3ばいだね",
+          "hint": "1dL = 100mL を おもいだそう"
+        },
+        {
+          "id": "vol_3_003",
+          "type": "conversion",
+          "question": "1L5dL は なん mL？",
+          "image": null,
+          "options": [
+            { "text": "150 mL", "image": null },
+            { "text": "1500 mL", "image": null },
+            { "text": "15000 mL", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1L = 1000mL、5dL = 500mL だから 1500mL だよ！",
+          "hint": "1L と 5dL を それぞれ mL に なおそう"
+        },
+        {
+          "id": "vol_3_004",
+          "type": "conversion",
+          "question": "500mL は なん dL？",
+          "image": null,
+          "options": [
+            { "text": "5 dL", "image": null },
+            { "text": "50 dL", "image": null },
+            { "text": "500 dL", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "1dL = 100mL だから 500mL ÷ 100 = 5dL だよ！",
+          "hint": "100mL ごとに 1dL だよ"
+        },
+        {
+          "id": "vol_3_005",
+          "type": "conversion",
+          "question": "2000mL は なん L？",
+          "image": null,
+          "options": [
+            { "text": "2 L", "image": null },
+            { "text": "20 L", "image": null },
+            { "text": "200 L", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "1L = 1000mL だから 2000mL = 2L だよ！",
+          "hint": "1000mL ごとに 1L だよ"
+        },
+        {
+          "id": "vol_3_006",
+          "type": "conversion",
+          "question": "1L 500mL は なん mL？",
+          "image": null,
+          "options": [
+            { "text": "150 mL", "image": null },
+            { "text": "1050 mL", "image": null },
+            { "text": "1500 mL", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "1L = 1000mL。1000 + 500 = 1500mL だよ！",
+          "hint": "1L を mL に なおして たそう"
+        },
+        {
+          "id": "vol_3_007",
+          "type": "conversion",
+          "question": "4dL は なん mL？",
+          "image": null,
+          "options": [
+            { "text": "40 mL", "image": null },
+            { "text": "400 mL", "image": null },
+            { "text": "4000 mL", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1dL = 100mL だから 4dL = 400mL だよ！",
+          "hint": "1dL = 100mL × 4 だよ"
+        },
+        {
+          "id": "vol_3_008",
+          "type": "choice",
+          "question": "1L のジュースを 4にんで おなじだけ わける。1にん なん mL？",
+          "image": null,
+          "options": [
+            { "text": "200 mL", "image": null },
+            { "text": "250 mL", "image": null },
+            { "text": "400 mL", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1L = 1000mL。1000 ÷ 4 = 250mL だよ！",
+          "hint": "1L を mL に なおして から 4で わろう"
+        },
+        {
+          "id": "vol_3_009",
+          "type": "conversion",
+          "question": "1500mL は なん L なん mL？",
+          "image": null,
+          "options": [
+            { "text": "1L 50mL", "image": null },
+            { "text": "1L 500mL", "image": null },
+            { "text": "15L", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1000mL = 1L。1500mL = 1L 500mL だよ！",
+          "hint": "1000mL で 1L になるよ"
+        },
+        {
+          "id": "vol_3_010",
+          "type": "choice",
+          "question": "3L と 800mL を あわせると なん mL？",
+          "image": null,
+          "options": [
+            { "text": "3800 mL", "image": null },
+            { "text": "3080 mL", "image": null },
+            { "text": "3008 mL", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "3L = 3000mL。3000 + 800 = 3800mL だよ！",
+          "hint": "3L を mL に なおして たそう"
+        }
+      ]
+    }
+  }
+}

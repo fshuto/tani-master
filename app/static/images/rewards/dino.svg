@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <circle cx="80" cy="80" r="76" fill="#27AE60" stroke="#1e8449" stroke-width="4"/>
+  <!-- body -->
+  <ellipse cx="80" cy="92" rx="32" ry="26" fill="#2ECC71"/>
+  <!-- head -->
+  <ellipse cx="106" cy="66" rx="22" ry="18" fill="#2ECC71"/>
+  <!-- snout -->
+  <ellipse cx="122" cy="72" rx="12" ry="8" fill="#27AE60"/>
+  <!-- eye -->
+  <circle cx="112" cy="60" r="5" fill="white"/>
+  <circle cx="114" cy="60" r="3" fill="#1a1a1a"/>
+  <circle cx="115" cy="59" r="1" fill="white"/>
+  <!-- nostril -->
+  <circle cx="126" cy="70" r="2" fill="#1e8449"/>
+  <!-- teeth -->
+  <path d="M120 76 L123 82 L126 76 L129 82 L132 76" stroke="white" stroke-width="1.5" fill="none"/>
+  <!-- tail -->
+  <path d="M50 100 Q34 110 28 126 Q40 118 54 108" fill="#2ECC71"/>
+  <!-- front leg -->
+  <rect x="90" y="108" width="10" height="22" rx="5" fill="#27AE60"/>
+  <!-- back leg -->
+  <rect x="62" y="110" width="10" height="22" rx="5" fill="#27AE60"/>
+  <!-- arm -->
+  <path d="M106 80 Q114 88 110 96" stroke="#27AE60" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- spikes on back -->
+  <polygon points="68,70 72,58 76,70" fill="#1e8449"/>
+  <polygon points="76,68 80,54 84,68" fill="#1e8449"/>
+  <polygon points="84,72 88,60 92,72" fill="#1e8449"/>
+  <text x="80" y="148" text-anchor="middle" font-size="13" font-weight="bold" fill="white">きょうりゅう</text>
+</svg>

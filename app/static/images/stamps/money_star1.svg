@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="56" fill="#F4B942" stroke="#d49820" stroke-width="4"/>
+  <!-- coin -->
+  <circle cx="60" cy="55" r="26" fill="#FFD700" stroke="#d49820" stroke-width="3"/>
+  <circle cx="60" cy="55" r="20" fill="none" stroke="#d49820" stroke-width="1.5"/>
+  <!-- yen symbol -->
+  <text x="60" y="62" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="bold" fill="#8B6914">¥</text>
+  <text x="60" y="96" text-anchor="middle" font-size="22" fill="white">★</text>
+</svg>

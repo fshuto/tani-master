@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="56" fill="#45B7D1" stroke="#359fba" stroke-width="4"/>
+  <!-- beaker/cup -->
+  <path d="M44 34 L44 72 Q44 80 52 80 L68 80 Q76 80 76 72 L76 34 Z" fill="white" stroke="#359fba" stroke-width="2"/>
+  <rect x="40" y="30" width="40" height="6" rx="3" fill="white" stroke="#359fba" stroke-width="2"/>
+  <!-- water level lines -->
+  <line x1="47" y1="56" x2="73" y2="56" stroke="#45B7D1" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="47" y1="66" x2="73" y2="66" stroke="#45B7D1" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <!-- water fill -->
+  <path d="M44.5 70 L44.5 72 Q44.5 79.5 52 79.5 L68 79.5 Q75.5 79.5 75.5 72 L75.5 70 Z" fill="#45B7D1" opacity="0.4"/>
+  <text x="60" y="100" text-anchor="middle" font-size="22" fill="#FFD700">★</text>
+</svg>

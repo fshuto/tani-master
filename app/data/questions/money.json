@@ -1,0 +1,445 @@
+{
+  "category_id": "money",
+  "levels": {
+    "1": {
+      "title": "おかねを しろう",
+      "instruction": "ただしい こたえを えらんでね",
+      "passing_score": 3,
+      "questions": [
+        {
+          "id": "mon_1_001",
+          "type": "choice",
+          "question": "いちばん たかい こうかは どれ？",
+          "image": null,
+          "options": [
+            { "text": "1えん", "image": null },
+            { "text": "10えん", "image": null },
+            { "text": "500えん", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "500えん が いちばん たかいよ！",
+          "hint": "かずが おおきいほど たかいよ"
+        },
+        {
+          "id": "mon_1_002",
+          "type": "choice",
+          "question": "10えん が 5まい あります。ぜんぶで なんえん？",
+          "image": null,
+          "options": [
+            { "text": "15えん", "image": null },
+            { "text": "50えん", "image": null },
+            { "text": "100えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "10 × 5 = 50えん だよ！",
+          "hint": "10えん を 5かい たすと いくら？"
+        },
+        {
+          "id": "mon_1_003",
+          "type": "choice",
+          "question": "100えん こうか 2まいと 10えん こうか 3まいで ぜんぶで なんえん？",
+          "image": null,
+          "options": [
+            { "text": "230えん", "image": null },
+            { "text": "203えん", "image": null },
+            { "text": "320えん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "100×2 + 10×3 = 200 + 30 = 230えん だよ！",
+          "hint": "100えんの ぶんと 10えんの ぶんを べつべつに けいさんしよう"
+        },
+        {
+          "id": "mon_1_004",
+          "type": "choice",
+          "question": "おかしが 80えん。100えん ばらった。おつりは なんえん？",
+          "image": null,
+          "options": [
+            { "text": "20えん", "image": null },
+            { "text": "80えん", "image": null },
+            { "text": "180えん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "100 - 80 = 20えん だよ！",
+          "hint": "はらった おかねから ねだんを ひこう"
+        },
+        {
+          "id": "mon_1_005",
+          "type": "choice",
+          "question": "1000えん さつは なんまい あれば 500えん と おなじ？",
+          "image": null,
+          "options": [
+            { "text": "1まい", "image": null },
+            { "text": "2まい", "image": null },
+            { "text": "5まい", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "1000えん さつ 1まい の ほうが 500えんより おおきいよ！",
+          "hint": "1000えん と 500えん を くらべよう"
+        },
+        {
+          "id": "mon_1_006",
+          "type": "choice",
+          "question": "50えん こうかが 4まい あります。ぜんぶで なんえん？",
+          "image": null,
+          "options": [
+            { "text": "150えん", "image": null },
+            { "text": "200えん", "image": null },
+            { "text": "250えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "50 × 4 = 200えん だよ！",
+          "hint": "50えんを 4かい たそう"
+        },
+        {
+          "id": "mon_1_007",
+          "type": "choice",
+          "question": "5えん こうかが 6まい あります。ぜんぶで なんえん？",
+          "image": null,
+          "options": [
+            { "text": "11えん", "image": null },
+            { "text": "30えん", "image": null },
+            { "text": "56えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "5 × 6 = 30えん だよ！",
+          "hint": "5えんを 6かい たそう"
+        },
+        {
+          "id": "mon_1_008",
+          "type": "choice",
+          "question": "おかしが 120えん。500えん ばらった。おつりは なんえん？",
+          "image": null,
+          "options": [
+            { "text": "280えん", "image": null },
+            { "text": "380えん", "image": null },
+            { "text": "480えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "500 - 120 = 380えん だよ！",
+          "hint": "500えんから ねだんを ひこう"
+        },
+        {
+          "id": "mon_1_009",
+          "type": "choice",
+          "question": "100えん と 10えん と 5えん を あわせると なんえん？",
+          "image": null,
+          "options": [
+            { "text": "110えん", "image": null },
+            { "text": "115えん", "image": null },
+            { "text": "150えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "100 + 10 + 5 = 115えん だよ！",
+          "hint": "3つの こうかを ぜんぶ たそう"
+        },
+        {
+          "id": "mon_1_010",
+          "type": "choice",
+          "question": "1000えん さつ 2まいと 100えん こうか 3まいで ぜんぶで なんえん？",
+          "image": null,
+          "options": [
+            { "text": "2300えん", "image": null },
+            { "text": "2030えん", "image": null },
+            { "text": "2003えん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "1000×2 + 100×3 = 2000 + 300 = 2300えん だよ！",
+          "hint": "さつと こうかを べつべつに けいさんしよう"
+        }
+      ]
+    },
+    "2": {
+      "title": "おかねを かぞえよう",
+      "instruction": "こたえを えらんでね",
+      "passing_score": 4,
+      "questions": [
+        {
+          "id": "mon_2_001",
+          "type": "choice",
+          "question": "1まんえんさつ と 5000えんさつと 1000えんさつ。ぜんぶで なんえん？",
+          "image": null,
+          "options": [
+            { "text": "6000えん", "image": null },
+            { "text": "16000えん", "image": null },
+            { "text": "51000えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "10000 + 5000 + 1000 = 16000えん だよ！",
+          "hint": "それぞれの さつの がくを たしてみよう"
+        },
+        {
+          "id": "mon_2_002",
+          "type": "choice",
+          "question": "えんぴつが 1ほん 120えん。3ほん かうと ぜんぶで なんえん？",
+          "image": null,
+          "options": [
+            { "text": "360えん", "image": null },
+            { "text": "320えん", "image": null },
+            { "text": "123えん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "120 × 3 = 360えん だよ！",
+          "hint": "120えんを 3かい たそう"
+        },
+        {
+          "id": "mon_2_003",
+          "type": "choice",
+          "question": "500えん こうかで 350えんの ノートを かった。おつりは なんえん？",
+          "image": null,
+          "options": [
+            { "text": "50えん", "image": null },
+            { "text": "150えん", "image": null },
+            { "text": "850えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "500 - 350 = 150えん だよ！",
+          "hint": "はらった おかねから ねだんを ひこう"
+        },
+        {
+          "id": "mon_2_004",
+          "type": "choice",
+          "question": "100えん が 10まい あると なんえん？",
+          "image": null,
+          "options": [
+            { "text": "100えん", "image": null },
+            { "text": "1000えん", "image": null },
+            { "text": "10000えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "100 × 10 = 1000えん だよ！",
+          "hint": "100えん を 10かい たそう"
+        },
+        {
+          "id": "mon_2_005",
+          "type": "choice",
+          "question": "りんごが 1こ 98えん。2こ かうと ぜんぶで なんえん？",
+          "image": null,
+          "options": [
+            { "text": "196えん", "image": null },
+            { "text": "198えん", "image": null },
+            { "text": "200えん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "98 × 2 = 196えん だよ！",
+          "hint": "98えんを 2かい たそう"
+        },
+        {
+          "id": "mon_2_006",
+          "type": "choice",
+          "question": "1000えんで 680えんの ほんを かった。おつりは なんえん？",
+          "image": null,
+          "options": [
+            { "text": "220えん", "image": null },
+            { "text": "320えん", "image": null },
+            { "text": "420えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1000 - 680 = 320えん だよ！",
+          "hint": "1000えんから ねだんを ひこう"
+        },
+        {
+          "id": "mon_2_007",
+          "type": "choice",
+          "question": "おかし 1こ 75えん。4こ かうと なんえん？",
+          "image": null,
+          "options": [
+            { "text": "280えん", "image": null },
+            { "text": "300えん", "image": null },
+            { "text": "304えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "75 × 4 = 300えん だよ！",
+          "hint": "75えん × 4 = 75 × 4 を けいさんしよう"
+        },
+        {
+          "id": "mon_2_008",
+          "type": "choice",
+          "question": "10えん こうか 15まいは なんえん？",
+          "image": null,
+          "options": [
+            { "text": "100えん", "image": null },
+            { "text": "150えん", "image": null },
+            { "text": "1500えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "10 × 15 = 150えん だよ！",
+          "hint": "10えん × 15 = 10を 15かい たそう"
+        },
+        {
+          "id": "mon_2_009",
+          "type": "choice",
+          "question": "500えんで 235えんの おかしを かった。おつりは なんえん？",
+          "image": null,
+          "options": [
+            { "text": "235えん", "image": null },
+            { "text": "265えん", "image": null },
+            { "text": "285えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "500 - 235 = 265えん だよ！",
+          "hint": "500えんから ねだんを ひこう"
+        },
+        {
+          "id": "mon_2_010",
+          "type": "choice",
+          "question": "えんぴつ 2ほん 160えん と ノート 1さつ 220えん を かった。ぜんぶで なんえん？",
+          "image": null,
+          "options": [
+            { "text": "360えん", "image": null },
+            { "text": "380えん", "image": null },
+            { "text": "400えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "160 + 220 = 380えん だよ！",
+          "hint": "2つの ねだんを たそう"
+        }
+      ]
+    },
+    "3": {
+      "title": "おかねを けいさんしよう",
+      "instruction": "こたえを えらんでね",
+      "passing_score": 4,
+      "questions": [
+        {
+          "id": "mon_3_001",
+          "type": "choice",
+          "question": "えんぴつ 1ほん 85えん、ノート 1さつ 160えん。ぜんぶで なんえん？",
+          "image": null,
+          "options": [
+            { "text": "235えん", "image": null },
+            { "text": "245えん", "image": null },
+            { "text": "145えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "85 + 160 = 245えん だよ！",
+          "hint": "2つの ねだんを たそう"
+        },
+        {
+          "id": "mon_3_002",
+          "type": "choice",
+          "question": "1000えんで 350えんの パンを かった。おつりは なんえん？",
+          "image": null,
+          "options": [
+            { "text": "550えん", "image": null },
+            { "text": "650えん", "image": null },
+            { "text": "750えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1000 - 350 = 650えん だよ！",
+          "hint": "1000えんから ねだんを ひこう"
+        },
+        {
+          "id": "mon_3_003",
+          "type": "choice",
+          "question": "あめ 1こ 45えん。7こ かうと なんえん？",
+          "image": null,
+          "options": [
+            { "text": "305えん", "image": null },
+            { "text": "315えん", "image": null },
+            { "text": "325えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "45 × 7 = 315えん だよ！",
+          "hint": "45えん × 7 を けいさんしよう"
+        },
+        {
+          "id": "mon_3_004",
+          "type": "choice",
+          "question": "500えんで 180えんの ジュースと 240えんの おかしを かった。おつりは なんえん？",
+          "image": null,
+          "options": [
+            { "text": "70えん", "image": null },
+            { "text": "80えん", "image": null },
+            { "text": "90えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "180 + 240 = 420えん。500 - 420 = 80えん だよ！",
+          "hint": "まず ぜんぶの ねだんを たして、500から ひこう"
+        },
+        {
+          "id": "mon_3_005",
+          "type": "choice",
+          "question": "3まいで 240えんの クッキー。1まいは なんえん？",
+          "image": null,
+          "options": [
+            { "text": "70えん", "image": null },
+            { "text": "80えん", "image": null },
+            { "text": "90えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "240 ÷ 3 = 80えん だよ！",
+          "hint": "ぜんぶの ねだんを まいすうで わろう"
+        },
+        {
+          "id": "mon_3_006",
+          "type": "choice",
+          "question": "パン 1こ 130えん。5こ かうと なんえん？",
+          "image": null,
+          "options": [
+            { "text": "550えん", "image": null },
+            { "text": "650えん", "image": null },
+            { "text": "750えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "130 × 5 = 650えん だよ！",
+          "hint": "130えん × 5 を けいさんしよう"
+        },
+        {
+          "id": "mon_3_007",
+          "type": "choice",
+          "question": "2000えんで 1350えんの ものを かった。おつりは なんえん？",
+          "image": null,
+          "options": [
+            { "text": "550えん", "image": null },
+            { "text": "650えん", "image": null },
+            { "text": "750えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "2000 - 1350 = 650えん だよ！",
+          "hint": "2000えんから ねだんを ひこう"
+        },
+        {
+          "id": "mon_3_008",
+          "type": "choice",
+          "question": "4にんで 1000えんの ピザを かった。1にんは なんえん だした？",
+          "image": null,
+          "options": [
+            { "text": "200えん", "image": null },
+            { "text": "250えん", "image": null },
+            { "text": "400えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1000 ÷ 4 = 250えん だよ！",
+          "hint": "ぜんぶのねだんを にんずうで わろう"
+        },
+        {
+          "id": "mon_3_009",
+          "type": "choice",
+          "question": "500えん もって スーパーへ。95えんの にゅうとうと 178えんの ヨーグルトを かいたい。かえる？",
+          "image": null,
+          "options": [
+            { "text": "かえる（おつりが ある）", "image": null },
+            { "text": "かえない（たりない）", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "95 + 178 = 273えん。500 - 273 = 227えん おつりが あるよ！",
+          "hint": "2つの ねだんを たして 500えんと くらべよう"
+        },
+        {
+          "id": "mon_3_010",
+          "type": "choice",
+          "question": "120えんの ガムを 3こと 85えんの あめを 2こ かった。ぜんぶで なんえん？",
+          "image": null,
+          "options": [
+            { "text": "490えん", "image": null },
+            { "text": "530えん", "image": null },
+            { "text": "550えん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "120×3 = 360えん。85×2 = 170えん。360+170 = 530えん だよ！",
+          "hint": "ガムと あめを べつべつに けいさんして たそう"
+        }
+      ]
+    }
+  }
+}

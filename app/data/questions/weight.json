@@ -1,0 +1,436 @@
+{
+  "category_id": "weight",
+  "levels": {
+    "1": {
+      "title": "どっちがおもい？",
+      "instruction": "おもいほうを えらんでね",
+      "passing_score": 3,
+      "questions": [
+        {
+          "id": "wgt_1_001",
+          "type": "choice",
+          "question": "りんごと ぶどう、どちらが おもい？",
+          "image": null,
+          "options": [
+            { "text": "りんご", "image": null },
+            { "text": "ぶどう", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "りんごのほうが おもいよ！",
+          "hint": "おおきい くだものは おもいよ"
+        },
+        {
+          "id": "wgt_1_002",
+          "type": "choice",
+          "question": "ランドセルと えんぴつ、どちらが おもい？",
+          "image": null,
+          "options": [
+            { "text": "ランドセル", "image": null },
+            { "text": "えんぴつ", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "ランドセルのほうが おもいよ！",
+          "hint": "まいにち せおっている ね"
+        },
+        {
+          "id": "wgt_1_003",
+          "type": "choice",
+          "question": "おもさの たんいは どっち？",
+          "image": null,
+          "options": [
+            { "text": "g（ぐらむ）", "image": null },
+            { "text": "cm（せんちめーとる）", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "g（ぐらむ）が おもさの たんいだよ！",
+          "hint": "cm は ながさ。おもさは ちがう たんいだよ"
+        },
+        {
+          "id": "wgt_1_004",
+          "type": "choice",
+          "question": "スイカと いちご、どちらが おもい？",
+          "image": null,
+          "options": [
+            { "text": "スイカ", "image": null },
+            { "text": "いちご", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "スイカのほうが ずっと おもいよ！",
+          "hint": "おおきさを くらべてみよう"
+        },
+        {
+          "id": "wgt_1_005",
+          "type": "choice",
+          "question": "1kg と 500g、どちらが おもい？",
+          "image": null,
+          "options": [
+            { "text": "1kg", "image": null },
+            { "text": "500g", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "1kg = 1000g だから 1kg のほうが おもいよ！",
+          "hint": "kg は きろぐらむ。g より おおきい たんいだよ"
+        },
+        {
+          "id": "wgt_1_006",
+          "type": "choice",
+          "question": "すいか と みかん、どちらが おもい？",
+          "image": null,
+          "options": [
+            { "text": "すいか", "image": null },
+            { "text": "みかん", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "すいかのほうが ずっと おもいよ！",
+          "hint": "おおきい ほうが おもいよ"
+        },
+        {
+          "id": "wgt_1_007",
+          "type": "choice",
+          "question": "おもさの たんいで いちばん おおきい のは？",
+          "image": null,
+          "options": [
+            { "text": "g（ぐらむ）", "image": null },
+            { "text": "kg（きろぐらむ）", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "kg のほうが おおきい たんいだよ！ 1kg = 1000g",
+          "hint": "kg は g より おおきい たんいだよ"
+        },
+        {
+          "id": "wgt_1_008",
+          "type": "choice",
+          "question": "いちごと バナナ、どちらが おもい？",
+          "image": null,
+          "options": [
+            { "text": "いちご 1こ", "image": null },
+            { "text": "バナナ 1ふさ", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "バナナ 1ふさ のほうが おもいよ！",
+          "hint": "バナナは なんぼんも まとまっているよ"
+        },
+        {
+          "id": "wgt_1_009",
+          "type": "choice",
+          "question": "じしょと ノート、どちらが おもい？",
+          "image": null,
+          "options": [
+            { "text": "じしょ", "image": null },
+            { "text": "ノート", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "じしょのほうが おもいよ！ ページが たくさん あるね",
+          "hint": "ぶあつい ほん は おもいよ"
+        },
+        {
+          "id": "wgt_1_010",
+          "type": "choice",
+          "question": "200g と 1kg、どちらが かるい？",
+          "image": null,
+          "options": [
+            { "text": "200g", "image": null },
+            { "text": "1kg", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "200g のほうが かるいよ！ 1kg = 1000g だもんね",
+          "hint": "かるい のは おもさが すくない ほうだよ"
+        }
+      ]
+    },
+    "2": {
+      "title": "たんいを おぼえよう",
+      "instruction": "ただしいたんいを えらんでね",
+      "passing_score": 4,
+      "questions": [
+        {
+          "id": "wgt_2_001",
+          "type": "fill_unit",
+          "question": "1えんだまは 1 ____",
+          "image": null,
+          "options": [
+            { "text": "mg", "image": null },
+            { "text": "g", "image": null },
+            { "text": "kg", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1えんだまは ちょうど 1g だよ！",
+          "hint": "てに もつと ほとんど かんじない くらい かるいよ"
+        },
+        {
+          "id": "wgt_2_002",
+          "type": "choice",
+          "question": "1kg は なん g？",
+          "image": null,
+          "options": [
+            { "text": "10 g", "image": null },
+            { "text": "100 g", "image": null },
+            { "text": "1000 g", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "1kg = 1000g だよ！",
+          "hint": "1m = 100cm みたいに かんがえてみよう"
+        },
+        {
+          "id": "wgt_2_003",
+          "type": "fill_unit",
+          "question": "こどもの おもさは だいたい 30 ____",
+          "image": null,
+          "options": [
+            { "text": "g", "image": null },
+            { "text": "kg", "image": null },
+            { "text": "t", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "こどもの おもさは だいたい 30kg だよ！",
+          "hint": "kg は きろぐらむ。ひとの おもさに つかうよ"
+        },
+        {
+          "id": "wgt_2_004",
+          "type": "conversion",
+          "question": "2kg は なん g？",
+          "image": null,
+          "options": [
+            { "text": "200 g", "image": null },
+            { "text": "2000 g", "image": null },
+            { "text": "20000 g", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "2kg = 2000g だよ！ 1kg = 1000g だから 2ばいだね",
+          "hint": "1kg = 1000g を おもいだそう"
+        },
+        {
+          "id": "wgt_2_005",
+          "type": "fill_unit",
+          "question": "おさかなの まぐろは だいたい 200 ____",
+          "image": null,
+          "options": [
+            { "text": "g", "image": null },
+            { "text": "kg", "image": null },
+            { "text": "t", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "まぐろは だいたい 200kg も あるよ！ おもいね",
+          "hint": "さかなの なかでも おおきい まぐろは とても おもいよ"
+        },
+        {
+          "id": "wgt_2_006",
+          "type": "fill_unit",
+          "question": "スイカは だいたい 5 ____",
+          "image": null,
+          "options": [
+            { "text": "g", "image": null },
+            { "text": "kg", "image": null },
+            { "text": "t", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "スイカは だいたい 5kg も あるよ！",
+          "hint": "おもたい と おもったことは ある？ kg がちょうどよい よ"
+        },
+        {
+          "id": "wgt_2_007",
+          "type": "conversion",
+          "question": "3kg は なん g？",
+          "image": null,
+          "options": [
+            { "text": "30 g", "image": null },
+            { "text": "300 g", "image": null },
+            { "text": "3000 g", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "3kg = 3000g だよ！ 1kg = 1000g の 3ばいだね",
+          "hint": "1kg = 1000g を おもいだそう"
+        },
+        {
+          "id": "wgt_2_008",
+          "type": "fill_unit",
+          "question": "えんぴつ 1ほんの おもさは だいたい 5 ____",
+          "image": null,
+          "options": [
+            { "text": "g", "image": null },
+            { "text": "kg", "image": null },
+            { "text": "t", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "えんぴつは だいたい 5g くらいだよ！",
+          "hint": "えんぴつは とても かるい もの。ちいさい たんいだよ"
+        },
+        {
+          "id": "wgt_2_009",
+          "type": "conversion",
+          "question": "1kg 500g は なん g？",
+          "image": null,
+          "options": [
+            { "text": "150 g", "image": null },
+            { "text": "1050 g", "image": null },
+            { "text": "1500 g", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "1kg = 1000g。1000 + 500 = 1500g だよ！",
+          "hint": "1kg を g に なおして たそう"
+        },
+        {
+          "id": "wgt_2_010",
+          "type": "fill_unit",
+          "question": "きゅうしょくの ごはんは だいたい 200 ____",
+          "image": null,
+          "options": [
+            { "text": "g", "image": null },
+            { "text": "kg", "image": null },
+            { "text": "t", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "ごはん 1しゃもじぶんは だいたい 200g だよ！",
+          "hint": "g は ぐらむ。たべものの おもさには g を つかうよ"
+        }
+      ]
+    },
+    "3": {
+      "title": "たんいを かえよう",
+      "instruction": "けいさんして こたえを えらんでね",
+      "passing_score": 4,
+      "questions": [
+        {
+          "id": "wgt_3_001",
+          "type": "conversion",
+          "question": "3kg は なん g？",
+          "image": null,
+          "options": [
+            { "text": "300 g", "image": null },
+            { "text": "3000 g", "image": null },
+            { "text": "30000 g", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "3kg = 3000g だよ！ 1kg = 1000g × 3 = 3000g",
+          "hint": "1kg = 1000g を おもいだして"
+        },
+        {
+          "id": "wgt_3_002",
+          "type": "conversion",
+          "question": "2500g は なん kg なん g？",
+          "image": null,
+          "options": [
+            { "text": "2kg 500g", "image": null },
+            { "text": "25kg", "image": null },
+            { "text": "2kg 50g", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "2500g = 2kg 500g だよ！ 1000g = 1kg だから",
+          "hint": "1000g ずつ きりとって かんがえよう"
+        },
+        {
+          "id": "wgt_3_003",
+          "type": "conversion",
+          "question": "1kg 200g は なん g？",
+          "image": null,
+          "options": [
+            { "text": "120 g", "image": null },
+            { "text": "1020 g", "image": null },
+            { "text": "1200 g", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "1kg 200g = 1000g + 200g = 1200g だよ！",
+          "hint": "1kg を g に なおして たそう"
+        },
+        {
+          "id": "wgt_3_004",
+          "type": "choice",
+          "question": "りんご 1こ が 300g。5こ で なん g？ なん kg なん g？",
+          "image": null,
+          "options": [
+            { "text": "1kg 200g", "image": null },
+            { "text": "1kg 500g", "image": null },
+            { "text": "2kg", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "300 × 5 = 1500g = 1kg 500g だよ！",
+          "hint": "300 × 5 を けいさんして g から kg に なおそう"
+        },
+        {
+          "id": "wgt_3_005",
+          "type": "choice",
+          "question": "4kg 800g と 3kg 500g を あわせると なん kg なん g？",
+          "image": null,
+          "options": [
+            { "text": "7kg 300g", "image": null },
+            { "text": "8kg 300g", "image": null },
+            { "text": "8kg 100g", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "4800g + 3500g = 8300g = 8kg 300g だよ！",
+          "hint": "g に なおして たしてから kg に もどそう"
+        },
+        {
+          "id": "wgt_3_006",
+          "type": "conversion",
+          "question": "5kg は なん g？",
+          "image": null,
+          "options": [
+            { "text": "500 g", "image": null },
+            { "text": "5000 g", "image": null },
+            { "text": "50000 g", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "5kg = 5000g だよ！ 1kg = 1000g の 5ばいだね",
+          "hint": "1kg = 1000g を おもいだそう"
+        },
+        {
+          "id": "wgt_3_007",
+          "type": "conversion",
+          "question": "3000g は なん kg？",
+          "image": null,
+          "options": [
+            { "text": "3 kg", "image": null },
+            { "text": "30 kg", "image": null },
+            { "text": "300 kg", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "1kg = 1000g だから 3000g = 3kg だよ！",
+          "hint": "1000g ごとに 1kg だよ"
+        },
+        {
+          "id": "wgt_3_008",
+          "type": "choice",
+          "question": "2kg 300g から 1kg 800g を ひくと なん g？",
+          "image": null,
+          "options": [
+            { "text": "400 g", "image": null },
+            { "text": "500 g", "image": null },
+            { "text": "600 g", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "2300g - 1800g = 500g だよ！",
+          "hint": "g に なおして から ひこう"
+        },
+        {
+          "id": "wgt_3_009",
+          "type": "conversion",
+          "question": "2kg 400g は なん g？",
+          "image": null,
+          "options": [
+            { "text": "240 g", "image": null },
+            { "text": "2040 g", "image": null },
+            { "text": "2400 g", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "2kg = 2000g。2000 + 400 = 2400g だよ！",
+          "hint": "まず 2kg を g に なおそう"
+        },
+        {
+          "id": "wgt_3_010",
+          "type": "choice",
+          "question": "りんご 1こ が 200g。10こ で なん kg？",
+          "image": null,
+          "options": [
+            { "text": "1 kg", "image": null },
+            { "text": "2 kg", "image": null },
+            { "text": "20 kg", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "200 × 10 = 2000g = 2kg だよ！",
+          "hint": "200g × 10 = なんg？ それを kg に なおそう"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="56" fill="#FF8E53" stroke="#e07040" stroke-width="4"/>
+  <!-- balance beam -->
+  <rect x="57" y="38" width="6" height="34" rx="3" fill="white"/>
+  <rect x="28" y="36" width="64" height="6" rx="3" fill="white"/>
+  <!-- left plate -->
+  <ellipse cx="34" cy="60" rx="16" ry="5" fill="white" stroke="#e07040" stroke-width="2"/>
+  <!-- right plate -->
+  <ellipse cx="86" cy="60" rx="16" ry="5" fill="white" stroke="#e07040" stroke-width="2"/>
+  <!-- ropes -->
+  <line x1="34" y1="42" x2="34" y2="60" stroke="white" stroke-width="2"/>
+  <line x1="86" y1="42" x2="86" y2="60" stroke="white" stroke-width="2"/>
+  <!-- base -->
+  <rect x="50" y="72" width="20" height="6" rx="3" fill="white"/>
+  <text x="60" y="96" text-anchor="middle" font-size="22" fill="#FFD700">★</text>
+</svg>

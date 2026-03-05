@@ -1,0 +1,68 @@
+{
+  "stamps": [
+    {
+      "id": "length_l1_clear",
+      "name": "ながさマスター ★",
+      "condition": { "type": "level_clear", "category": "length", "level": 1 },
+      "image": "stamps/length_star1.svg"
+    },
+    {
+      "id": "length_l2_clear",
+      "name": "ながさマスター ★★",
+      "condition": { "type": "level_clear", "category": "length", "level": 2 },
+      "image": "stamps/length_star2.svg"
+    },
+    {
+      "id": "length_l3_clear",
+      "name": "ながさマスター ★★★",
+      "condition": { "type": "level_clear", "category": "length", "level": 3 },
+      "image": "stamps/length_star3.svg"
+    },
+    {
+      "id": "volume_l1_clear",
+      "name": "かさマスター ★",
+      "condition": { "type": "level_clear", "category": "volume", "level": 1 },
+      "image": "stamps/volume_star1.svg"
+    },
+    {
+      "id": "weight_l1_clear",
+      "name": "おもさマスター ★",
+      "condition": { "type": "level_clear", "category": "weight", "level": 1 },
+      "image": "stamps/weight_star1.svg"
+    },
+    {
+      "id": "time_l1_clear",
+      "name": "じかんマスター ★",
+      "condition": { "type": "level_clear", "category": "time", "level": 1 },
+      "image": "stamps/time_star1.svg"
+    },
+    {
+      "id": "money_l1_clear",
+      "name": "おかねマスター ★",
+      "condition": { "type": "level_clear", "category": "money", "level": 1 },
+      "image": "stamps/money_star1.svg"
+    },
+    {
+      "id": "all_level1_clear",
+      "name": "ぜんぶ ★ クリア！",
+      "condition": { "type": "all_categories_clear", "level": 1 },
+      "image": "stamps/all_star1.svg"
+    }
+  ],
+  "secret_rewards": [
+    {
+      "id": "secret_dino",
+      "name": "きょうりゅう",
+      "condition": { "type": "total_correct", "count": 50 },
+      "image": "rewards/dino.svg",
+      "message": "50もん せいかい！ きょうりゅうが でてきた！"
+    },
+    {
+      "id": "secret_rocket",
+      "name": "ロケット",
+      "condition": { "type": "total_correct", "count": 100 },
+      "image": "rewards/rocket.svg",
+      "message": "100もん せいかい！ ロケットで そらへ とびだそう！"
+    }
+  ]
+}

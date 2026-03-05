@@ -1,0 +1,438 @@
+{
+  "category_id": "length",
+  "levels": {
+    "1": {
+      "title": "どっちがながい？",
+      "instruction": "ながいほうを えらんでね",
+      "passing_score": 3,
+      "questions": [
+        {
+          "id": "len_1_001",
+          "type": "choice",
+          "question": "ながいのは どっち？",
+          "image": null,
+          "options": [
+            { "text": "えんぴつ", "image": null },
+            { "text": "けしごむ", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "えんぴつのほうが ながいね！",
+          "hint": "てに もって くらべてみよう"
+        },
+        {
+          "id": "len_1_002",
+          "type": "choice",
+          "question": "みじかいのは どっち？",
+          "image": null,
+          "options": [
+            { "text": "はさみ", "image": null },
+            { "text": "くれよん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "くれよんのほうが みじかいね！",
+          "hint": "どちらが ちいさいかな？"
+        },
+        {
+          "id": "len_1_003",
+          "type": "choice",
+          "question": "いちばん ながいのは どれ？",
+          "image": null,
+          "options": [
+            { "text": "えんぴつ（17cm）", "image": null },
+            { "text": "けしごむ（5cm）", "image": null },
+            { "text": "ものさし（30cm）", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "ものさし（30cm）が いちばん ながい！",
+          "hint": "かずが おおきいほど ながいよ"
+        },
+        {
+          "id": "len_1_004",
+          "type": "choice",
+          "question": "つくえと いすを くらべると？",
+          "image": null,
+          "options": [
+            { "text": "つくえのほうが たかい", "image": null },
+            { "text": "いすのほうが たかい", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "つくえのほうが たかいね！",
+          "hint": "きょうしつで みてみよう"
+        },
+        {
+          "id": "len_1_005",
+          "type": "choice",
+          "question": "どちらが みじかい？",
+          "image": null,
+          "options": [
+            { "text": "うでのながさ", "image": null },
+            { "text": "ゆびのながさ", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "ゆびのほうが みじかいね！",
+          "hint": "じぶんのてを みてみよう"
+        },
+        {
+          "id": "len_1_006",
+          "type": "choice",
+          "question": "でんしゃと じてんしゃ、どちらが ながい？",
+          "image": null,
+          "options": [
+            { "text": "でんしゃ", "image": null },
+            { "text": "じてんしゃ", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "でんしゃのほうが ずっと ながいよ！",
+          "hint": "でんしゃは なんりょうも つながっているよ"
+        },
+        {
+          "id": "len_1_007",
+          "type": "choice",
+          "question": "いちばん みじかいのは どれ？",
+          "image": null,
+          "options": [
+            { "text": "つくえ（60cm）", "image": null },
+            { "text": "えんぴつ（17cm）", "image": null },
+            { "text": "ものさし（30cm）", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "えんぴつ（17cm）が いちばん みじかいよ！",
+          "hint": "かずが ちいさいほど みじかいよ"
+        },
+        {
+          "id": "len_1_008",
+          "type": "choice",
+          "question": "ドアと まど、どちらが たかい？",
+          "image": null,
+          "options": [
+            { "text": "ドア", "image": null },
+            { "text": "まど", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "ドアのほうが たかいよ！ ひとが とおれるくらい たかくないとね",
+          "hint": "ひとが とおれる たかさを かんがえよう"
+        },
+        {
+          "id": "len_1_009",
+          "type": "choice",
+          "question": "1mと 50cm、どちらが ながい？",
+          "image": null,
+          "options": [
+            { "text": "1m", "image": null },
+            { "text": "50cm", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "1m = 100cm だから 1mのほうが ながいよ！",
+          "hint": "1m は なんcm かな？"
+        },
+        {
+          "id": "len_1_010",
+          "type": "choice",
+          "question": "きょうしつと たいいくかん、どちらが ひろい？",
+          "image": null,
+          "options": [
+            { "text": "きょうしつ", "image": null },
+            { "text": "たいいくかん", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "たいいくかんのほうが ずっと ひろいよ！",
+          "hint": "ボールが とんでも だいじょうぶな のは どっち？"
+        }
+      ]
+    },
+    "2": {
+      "title": "たんいを おぼえよう",
+      "instruction": "ただしいたんいを えらんでね",
+      "passing_score": 4,
+      "questions": [
+        {
+          "id": "len_2_001",
+          "type": "choice",
+          "question": "えんぴつの ながさは だいたい どれくらい？",
+          "image": null,
+          "options": [
+            { "text": "17 cm", "image": null },
+            { "text": "17 m", "image": null },
+            { "text": "17 mm", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "えんぴつは だいたい 17cm だよ",
+          "hint": "cm は せんちめーとる。ものさしの めもりだよ"
+        },
+        {
+          "id": "len_2_002",
+          "type": "fill_unit",
+          "question": "つくえのよこはばは 60 ____",
+          "image": null,
+          "options": [
+            { "text": "mm", "image": null },
+            { "text": "cm", "image": null },
+            { "text": "m", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "つくえは だいたい 60cm だよ",
+          "hint": "mm は とても ちいさい。m は とても おおきい"
+        },
+        {
+          "id": "len_2_003",
+          "type": "fill_unit",
+          "question": "こうえんの プールの ながさは 25 ____",
+          "image": null,
+          "options": [
+            { "text": "mm", "image": null },
+            { "text": "cm", "image": null },
+            { "text": "m", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "プールは 25m（にじゅうごめーとる）だよ！",
+          "hint": "プールは とても ながいよ"
+        },
+        {
+          "id": "len_2_004",
+          "type": "choice",
+          "question": "1cm は なん mm？",
+          "image": null,
+          "options": [
+            { "text": "5 mm", "image": null },
+            { "text": "10 mm", "image": null },
+            { "text": "100 mm", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1cm = 10mm だよ！",
+          "hint": "ものさしの いちばんちいさい めもりを かぞえてみよう"
+        },
+        {
+          "id": "len_2_005",
+          "type": "fill_unit",
+          "question": "ありの からだの おおきさは 5 ____",
+          "image": null,
+          "options": [
+            { "text": "mm", "image": null },
+            { "text": "cm", "image": null },
+            { "text": "m", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "ありは とても ちいさくて だいたい 5mm だよ",
+          "hint": "mm は みりめーとる。とても ちいさい たんいだよ"
+        },
+        {
+          "id": "len_2_006",
+          "type": "fill_unit",
+          "question": "バスの ながさは だいたい 10 ____",
+          "image": null,
+          "options": [
+            { "text": "mm", "image": null },
+            { "text": "cm", "image": null },
+            { "text": "m", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "バスは だいたい 10m も あるよ！",
+          "hint": "バスは とても おおきい のりものだよ"
+        },
+        {
+          "id": "len_2_007",
+          "type": "choice",
+          "question": "1m は なん cm？",
+          "image": null,
+          "options": [
+            { "text": "10 cm", "image": null },
+            { "text": "100 cm", "image": null },
+            { "text": "1000 cm", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1m = 100cm だよ！",
+          "hint": "ものさしが なんぼん ならぶかな？"
+        },
+        {
+          "id": "len_2_008",
+          "type": "fill_unit",
+          "question": "おとなの しんちょうは だいたい 170 ____",
+          "image": null,
+          "options": [
+            { "text": "mm", "image": null },
+            { "text": "cm", "image": null },
+            { "text": "m", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "おとなの たかさは だいたい 170cm だよ！",
+          "hint": "おとなは cm で あらわすと ちょうどよいね"
+        },
+        {
+          "id": "len_2_009",
+          "type": "fill_unit",
+          "question": "1えんだまの あつさは だいたい 1 ____",
+          "image": null,
+          "options": [
+            { "text": "mm", "image": null },
+            { "text": "cm", "image": null },
+            { "text": "m", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "1えんだまは だいたい 1mm の あつさだよ！",
+          "hint": "mm は とても ちいさい たんいだよ"
+        },
+        {
+          "id": "len_2_010",
+          "type": "fill_unit",
+          "question": "じんじゃの おおきな とりいの たかさは 10 ____",
+          "image": null,
+          "options": [
+            { "text": "mm", "image": null },
+            { "text": "cm", "image": null },
+            { "text": "m", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "おおきな とりいは 10m くらい あるよ！",
+          "hint": "とても おおきい もの には どの たんい？"
+        }
+      ]
+    },
+    "3": {
+      "title": "たんいへんかん",
+      "instruction": "おなじながさに なるものを えらんでね",
+      "passing_score": 4,
+      "questions": [
+        {
+          "id": "len_3_001",
+          "type": "conversion",
+          "question": "1m は なん cm？",
+          "image": null,
+          "options": [
+            { "text": "10 cm", "image": null },
+            { "text": "100 cm", "image": null },
+            { "text": "1000 cm", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1m = 100cm だよ！",
+          "hint": "ものさしが なんぼん ならぶかな？"
+        },
+        {
+          "id": "len_3_002",
+          "type": "conversion",
+          "question": "2m は なん cm？",
+          "image": null,
+          "options": [
+            { "text": "20 cm", "image": null },
+            { "text": "200 cm", "image": null },
+            { "text": "2000 cm", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "2m = 200cm だよ！ 1m = 100cm だから 2ばいだね",
+          "hint": "1m = 100cm を おもいだそう"
+        },
+        {
+          "id": "len_3_003",
+          "type": "conversion",
+          "question": "30mm は なん cm？",
+          "image": null,
+          "options": [
+            { "text": "3 cm", "image": null },
+            { "text": "30 cm", "image": null },
+            { "text": "300 cm", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "10mm = 1cm だから 30mm = 3cm だよ！",
+          "hint": "1cm = 10mm を おもいだそう"
+        },
+        {
+          "id": "len_3_004",
+          "type": "conversion",
+          "question": "150cm は なん m なん cm？",
+          "image": null,
+          "options": [
+            { "text": "1m 50cm", "image": null },
+            { "text": "15m 0cm", "image": null },
+            { "text": "1m 5cm", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "150cm = 1m（100cm）+ 50cm = 1m50cm だよ！",
+          "hint": "100cm = 1m だよ"
+        },
+        {
+          "id": "len_3_005",
+          "type": "conversion",
+          "question": "3m20cm は なん cm？",
+          "image": null,
+          "options": [
+            { "text": "32 cm", "image": null },
+            { "text": "320 cm", "image": null },
+            { "text": "3020 cm", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "3m = 300cm だから 300 + 20 = 320cm だよ！",
+          "hint": "1m = 100cm。3m は なん cm かな？"
+        },
+        {
+          "id": "len_3_006",
+          "type": "conversion",
+          "question": "40mm は なん cm？",
+          "image": null,
+          "options": [
+            { "text": "4 cm", "image": null },
+            { "text": "40 cm", "image": null },
+            { "text": "400 cm", "image": null }
+          ],
+          "answer_index": 0,
+          "explanation": "10mm = 1cm だから 40mm = 4cm だよ！",
+          "hint": "10mm で 1cm だよ"
+        },
+        {
+          "id": "len_3_007",
+          "type": "conversion",
+          "question": "2m50cm は なん cm？",
+          "image": null,
+          "options": [
+            { "text": "25 cm", "image": null },
+            { "text": "205 cm", "image": null },
+            { "text": "250 cm", "image": null }
+          ],
+          "answer_index": 2,
+          "explanation": "2m = 200cm。200 + 50 = 250cm だよ！",
+          "hint": "まず 2m を cm に なおそう"
+        },
+        {
+          "id": "len_3_008",
+          "type": "conversion",
+          "question": "250cm は なん m なん cm？",
+          "image": null,
+          "options": [
+            { "text": "2m 5cm", "image": null },
+            { "text": "2m 50cm", "image": null },
+            { "text": "25m", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "100cm = 1m だから 250cm = 2m 50cm だよ！",
+          "hint": "100cm ごとに 1m だよ"
+        },
+        {
+          "id": "len_3_009",
+          "type": "choice",
+          "question": "えんぴつ（17cm）と ものさし（30cm）を つなぐと なん cm？",
+          "image": null,
+          "options": [
+            { "text": "37 cm", "image": null },
+            { "text": "47 cm", "image": null },
+            { "text": "57 cm", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "17 + 30 = 47cm だよ！",
+          "hint": "2つの ながさを たそう"
+        },
+        {
+          "id": "len_3_010",
+          "type": "conversion",
+          "question": "5m は なん mm？",
+          "image": null,
+          "options": [
+            { "text": "500 mm", "image": null },
+            { "text": "5000 mm", "image": null },
+            { "text": "50000 mm", "image": null }
+          ],
+          "answer_index": 1,
+          "explanation": "1m = 100cm = 1000mm だから 5m = 5000mm だよ！",
+          "hint": "1m = 1000mm だよ"
+        }
+      ]
+    }
+  }
+}
