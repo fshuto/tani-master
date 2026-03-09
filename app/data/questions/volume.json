@@ -30,7 +30,7 @@
           ],
           "answer_index": 0,
           "explanation": "1L のほうが おおいよ！ 1L = 1000mL だよ",
-          "hint": "L は える。mL は みりえる。L のほうが おおきい たんいだよ"
+          "hint": "L は りっとる。mL は みりりっとる。L のほうが おおきい たんいだよ"
         },
         {
           "id": "vol_1_003",
@@ -38,12 +38,12 @@
           "question": "いちばん かさが おおい たんいは どれ？",
           "image": null,
           "options": [
-            { "text": "mL（みりえる）", "image": null },
-            { "text": "dL（でしえる）", "image": null },
-            { "text": "L（える）", "image": null }
+            { "text": "mL（みりりっとる）", "image": null },
+            { "text": "dL（でしりっとる）", "image": null },
+            { "text": "L（りっとる）", "image": null }
           ],
           "answer_index": 2,
-          "explanation": "L（える）が いちばん おおきい たんいだよ！",
+          "explanation": "L（りっとる）が いちばん おおきい たんいだよ！",
           "hint": "L > dL > mL の じゅんに おおきいよ"
         },
         {
@@ -104,12 +104,12 @@
           "question": "いちばん かさが すくない たんいは どれ？",
           "image": null,
           "options": [
-            { "text": "mL（みりえる）", "image": null },
-            { "text": "dL（でしえる）", "image": null },
-            { "text": "L（える）", "image": null }
+            { "text": "mL（みりりっとる）", "image": null },
+            { "text": "dL（でしりっとる）", "image": null },
+            { "text": "L（りっとる）", "image": null }
           ],
           "answer_index": 0,
-          "explanation": "mL（みりえる）が いちばん ちいさい たんいだよ！",
+          "explanation": "mL（みりりっとる）が いちばん ちいさい たんいだよ！",
           "hint": "L > dL > mL の じゅんだよ"
         },
         {
@@ -170,7 +170,7 @@
             { "text": "L", "image": null }
           ],
           "answer_index": 2,
-          "explanation": "ぎゅうにゅうパックは 1L（いちえる）だよ！",
+          "explanation": "ぎゅうにゅうパックは 1L（いちりっとる）だよ！",
           "hint": "スーパーで みかける ぎゅうにゅう を おもいだそう"
         },
         {
@@ -227,7 +227,7 @@
           ],
           "answer_index": 0,
           "explanation": "コンビニで よく みる ペットボトルは 500mL だよ！",
-          "hint": "mL は みりえる。ちいさめの たんいだよ"
+          "hint": "mL は みりりっとる。ちいさめの たんいだよ"
         },
         {
           "id": "vol_2_007",
