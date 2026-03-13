@@ -43,6 +43,18 @@
       "image": "stamps/money_star1.svg"
     },
     {
+      "id": "kanji_l1_clear",
+      "name": "かんじマスター ★",
+      "condition": { "type": "level_clear", "category": "kanji", "level": 1 },
+      "image": "stamps/kanji_star1.svg"
+    },
+    {
+      "id": "kanji_l2_clear",
+      "name": "かんじマスター ★★",
+      "condition": { "type": "level_clear", "category": "kanji", "level": 2 },
+      "image": "stamps/kanji_star2.svg"
+    },
+    {
       "id": "all_level1_clear",
       "name": "ぜんぶ ★ クリア！",
       "condition": { "type": "all_categories_clear", "level": 1 },

@@ -1,0 +1,237 @@
+{
+  "category_id": "kanji",
+  "levels": {
+    "1": {
+      "title": "しょうがく1ねんせいの かんじ",
+      "instruction": "かんじを よんでみよう",
+      "passing_score": 8,
+      "session_size": 10,
+      "questions": [
+        {
+          "id": "kan_1_001",
+          "type": "kanji_read",
+          "display": "山",
+          "reading": "やま",
+          "example": "山に のぼる",
+          "explanation": "「山」は「やま」とよむよ"
+        },
+        {
+          "id": "kan_1_002",
+          "type": "kanji_read",
+          "display": "川",
+          "reading": "かわ",
+          "example": "川で さかなを つる",
+          "explanation": "「川」は「かわ」とよむよ"
+        },
+        {
+          "id": "kan_1_003",
+          "type": "kanji_read",
+          "display": "日",
+          "reading": "ひ",
+          "example": "きょうは いい 日だ",
+          "explanation": "「日」は「ひ」とよむよ"
+        },
+        {
+          "id": "kan_1_004",
+          "type": "kanji_read",
+          "display": "月",
+          "reading": "つき",
+          "example": "夜空に 月が でた",
+          "explanation": "「月」は「つき」とよむよ"
+        },
+        {
+          "id": "kan_1_005",
+          "type": "kanji_read",
+          "display": "火",
+          "reading": "ひ",
+          "example": "火が あかるく もえる",
+          "explanation": "「火」は「ひ」とよむよ"
+        },
+        {
+          "id": "kan_1_006",
+          "type": "kanji_read",
+          "display": "水",
+          "reading": "みず",
+          "example": "水を のむ",
+          "explanation": "「水」は「みず」とよむよ"
+        },
+        {
+          "id": "kan_1_007",
+          "type": "kanji_read",
+          "display": "木",
+          "reading": "き",
+          "example": "大きな 木が ある",
+          "explanation": "「木」は「き」とよむよ"
+        },
+        {
+          "id": "kan_1_008",
+          "type": "kanji_read",
+          "display": "金",
+          "reading": "きん",
+          "example": "金の メダルを もらった",
+          "explanation": "「金」は「きん」とよむよ"
+        },
+        {
+          "id": "kan_1_009",
+          "type": "kanji_read",
+          "display": "土",
+          "reading": "つち",
+          "example": "土で お山を つくる",
+          "explanation": "「土」は「つち」とよむよ"
+        },
+        {
+          "id": "kan_1_010",
+          "type": "kanji_read",
+          "display": "空",
+          "reading": "そら",
+          "example": "青い 空が ひろがる",
+          "explanation": "「空」は「そら」とよむよ"
+        },
+        {
+          "id": "kan_1_011",
+          "type": "kanji_read",
+          "display": "花",
+          "reading": "はな",
+          "example": "きれいな 花が さいた",
+          "explanation": "「花」は「はな」とよむよ"
+        },
+        {
+          "id": "kan_1_012",
+          "type": "kanji_read",
+          "display": "犬",
+          "reading": "いぬ",
+          "example": "犬が しっぽを ふる",
+          "explanation": "「犬」は「いぬ」とよむよ"
+        },
+        {
+          "id": "kan_1_013",
+          "type": "kanji_read",
+          "display": "大きい",
+          "reading": "おおきい",
+          "example": "大きい ぞうが いる",
+          "explanation": "「大きい」は「おおきい」とよむよ"
+        },
+        {
+          "id": "kan_1_014",
+          "type": "kanji_read",
+          "display": "小さい",
+          "reading": "ちいさい",
+          "example": "小さい アリが あるく",
+          "explanation": "「小さい」は「ちいさい」とよむよ"
+        },
+        {
+          "id": "kan_1_015",
+          "type": "kanji_read",
+          "display": "上",
+          "reading": "うえ",
+          "example": "つくえの 上に ほんが ある",
+          "explanation": "「上」は「うえ」とよむよ"
+        }
+      ]
+    },
+    "2": {
+      "title": "しょうがく2ねんせいの かんじ",
+      "instruction": "かんじを よんでみよう",
+      "passing_score": 8,
+      "session_size": 10,
+      "questions": [
+        {
+          "id": "kan_2_001",
+          "type": "kanji_read",
+          "display": "兄弟",
+          "reading": "きょうだい",
+          "example": "兄弟で なかよく あそぶ",
+          "explanation": "「兄弟」は「きょうだい」とよむよ"
+        },
+        {
+          "id": "kan_2_002",
+          "type": "kanji_read",
+          "display": "公園",
+          "reading": "こうえん",
+          "example": "公園で ブランコに のる",
+          "explanation": "「公園」は「こうえん」とよむよ"
+        },
+        {
+          "id": "kan_2_003",
+          "type": "kanji_read",
+          "display": "図書館",
+          "reading": "としょかん",
+          "example": "図書館で ほんを かりる",
+          "explanation": "「図書館」は「としょかん」とよむよ"
+        },
+        {
+          "id": "kan_2_004",
+          "type": "kanji_read",
+          "display": "電車",
+          "reading": "でんしゃ",
+          "example": "電車に のって がっこうへ いく",
+          "explanation": "「電車」は「でんしゃ」とよむよ"
+        },
+        {
+          "id": "kan_2_005",
+          "type": "kanji_read",
+          "display": "毎朝",
+          "reading": "まいあさ",
+          "example": "毎朝 はやく おきる",
+          "explanation": "「毎朝」は「まいあさ」とよむよ"
+        },
+        {
+          "id": "kan_2_006",
+          "type": "kanji_read",
+          "display": "読書",
+          "reading": "どくしょ",
+          "example": "読書が すきだ",
+          "explanation": "「読書」は「どくしょ」とよむよ"
+        },
+        {
+          "id": "kan_2_007",
+          "type": "kanji_read",
+          "display": "野菜",
+          "reading": "やさい",
+          "example": "野菜を たくさん たべる",
+          "explanation": "「野菜」は「やさい」とよむよ"
+        },
+        {
+          "id": "kan_2_008",
+          "type": "kanji_read",
+          "display": "海水",
+          "reading": "かいすい",
+          "example": "海水は しおからい",
+          "explanation": "「海水」は「かいすい」とよむよ"
+        },
+        {
+          "id": "kan_2_009",
+          "type": "kanji_read",
+          "display": "親切",
+          "reading": "しんせつ",
+          "example": "親切に おしえてくれた",
+          "explanation": "「親切」は「しんせつ」とよむよ"
+        },
+        {
+          "id": "kan_2_010",
+          "type": "kanji_read",
+          "display": "星空",
+          "reading": "ほしぞら",
+          "example": "夜の 星空が きれいだ",
+          "explanation": "「星空」は「ほしぞら」とよむよ"
+        },
+        {
+          "id": "kan_2_011",
+          "type": "kanji_read",
+          "display": "体育",
+          "reading": "たいいく",
+          "example": "体育の じゅぎょうで かけっこをする",
+          "explanation": "「体育」は「たいいく」とよむよ"
+        },
+        {
+          "id": "kan_2_012",
+          "type": "kanji_read",
+          "display": "合図",
+          "reading": "あいず",
+          "example": "先生の 合図で スタートする",
+          "explanation": "「合図」は「あいず」とよむよ"
+        }
+      ]
+    }
+  }
+}

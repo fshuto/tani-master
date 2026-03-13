@@ -246,3 +246,77 @@
   .result-page__title { font-size: 1.5rem; }
   .result-score__num { font-size: 2.5rem; }
 }
+
+/* ===========================
+   かんじよみ（kanji_read）スタイル
+   =========================== */
+
+.kanji-display {
+  font-size: 5rem;
+  font-weight: 900;
+  font-family: serif;
+  text-align: center;
+  color: var(--color-text);
+  line-height: 1.2;
+  margin: 8px 0 16px;
+  letter-spacing: 0.05em;
+}
+
+.kanji-example {
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--color-text-light);
+  margin: 0 0 20px;
+}
+
+.kanji-instruct {
+  font-size: 1.1rem;
+  text-align: center;
+  color: var(--color-text-light);
+  margin: 0 0 16px;
+}
+
+.kanji-judge {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.kanji-judge__btn {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 3rem;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.kanji-judge__btn:active {
+  transform: scale(0.94);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.kanji-judge__btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.kanji-judge__btn--correct {
+  background: var(--color-correct);
+  color: white;
+}
+
+.kanji-judge__btn--incorrect {
+  background: var(--color-incorrect);
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .kanji-display { font-size: 3.5rem; }
+  .kanji-judge__btn { width: 80px; height: 80px; font-size: 2.4rem; }
+}
