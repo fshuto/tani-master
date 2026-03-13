@@ -529,6 +529,9 @@ CREATE TABLE achievements (
 
 ## 開発ワークフロー（Claude Code + GitHub）
 
+> **詳細な開発フローは `DEVELOPMENT.md` を参照すること。**
+> 新規機能の開発は「議論 → 仕様書作成 → TDD（テスト先行） → 実装 → PR → マージ → main更新」の順で進める。
+
 ### 初期セットアップ
 
 ```bash
