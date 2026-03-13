@@ -51,12 +51,22 @@
       "enabled": true
     },
     {
+      "id": "kanji",
+      "name": "かんじ",
+      "icon": "kanji.svg",
+      "color": "#FF8C69",
+      "description": "かんじを よんでみよう",
+      "order": 6,
+      "levels": [1, 2],
+      "enabled": true
+    },
+    {
       "id": "area",
       "name": "ひろさ",
       "icon": "square.svg",
       "color": "#F0E68C",
       "description": "どっちがひろい？",
-      "order": 6,
+      "order": 7,
       "levels": [1],
       "enabled": false
     }

@@ -71,9 +71,9 @@ export async function startQuiz(config) {
     resetHint();
     updateProgress(index + 1, total, score);
 
-    // 問題テキスト
+    // 問題テキスト（kanji_read は renderer が表示を担うので空欄）
     const textEl = document.getElementById("question-text");
-    if (textEl) textEl.textContent = q.question;
+    if (textEl) textEl.textContent = q.question || "";
 
     // 問題画像
     const imageWrap = document.getElementById("question-image-wrap");
@@ -105,8 +105,10 @@ export async function startQuiz(config) {
     if (answered) return;
     answered = true;
 
-    const { answerIndex } = event.detail;
+    const { answerIndex, isCorrect: parentIsCorrect } = event.detail;
     const q = questions[currentIndex];
+    // kanji_read は親が isCorrect を直接渡す
+    const isParentJudge = parentIsCorrect !== undefined;
 
     // 選択肢ボタンを無効化
     disableOptions();
@@ -114,28 +116,30 @@ export async function startQuiz(config) {
     // API送信
     let result;
     try {
+      const body = isParentJudge
+        ? { question_id: q.id, is_correct: parentIsCorrect, category: categoryId, level }
+        : { question_id: q.id, answer_index: answerIndex, category: categoryId, level };
       const res = await fetch(apiAnswerUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          question_id: q.id,
-          answer_index: answerIndex,
-          category: categoryId,
-          level: level,
-        }),
+        body: JSON.stringify(body),
       });
       result = await res.json();
     } catch (e) {
       result = {
-        is_correct: answerIndex === q.answer_index,
+        is_correct: isParentJudge ? parentIsCorrect : answerIndex === q.answer_index,
         correct_index: q.answer_index,
         explanation: q.explanation || "",
+        reading: q.reading || "",
         score_so_far: score,
       };
     }
 
-    // 正誤表示
-    highlightOptions(answerIndex, result.correct_index);
+    // 正誤ハイライト（親判定型はスキップ）
+    if (!isParentJudge) {
+      highlightOptions(answerIndex, result.correct_index);
+    }
+
     if (result.is_correct) {
       score++;
       playSound("correct");
@@ -144,8 +148,13 @@ export async function startQuiz(config) {
     }
     updateProgress(currentIndex + 1, total, score);
 
+    // フィードバックテキスト（kanji_read は reading を先頭に表示）
+    const feedbackText = result.reading
+      ? `こたえ：「${result.reading}」　${result.explanation}`
+      : result.explanation;
+
     // フィードバック表示
-    showFeedback(result.is_correct, result.explanation, () => {
+    showFeedback(result.is_correct, feedbackText, () => {
       currentIndex++;
       if (currentIndex < total) {
         showQuestion(currentIndex);

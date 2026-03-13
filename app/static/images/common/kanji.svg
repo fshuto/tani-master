@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <rect x="8" y="8" width="64" height="64" rx="8" fill="#FF8C69" stroke="#e07050" stroke-width="3"/>
+  <text x="40" y="54" text-anchor="middle" font-size="38" fill="white" font-family="serif" font-weight="bold">字</text>
+</svg>

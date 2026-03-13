@@ -48,8 +48,9 @@ def api_quiz(category_id: str, level: int):
     questions = load_questions(category_id, level)
     if not questions:
         abort(404)
-    # 問題をシャッフル（5問以上ある場合は5問に絞る）
-    selected = random.sample(questions, min(len(questions), 5))
+    level_info = load_level_info(category_id, level)
+    session_size = level_info.get("session_size", 5)
+    selected = random.sample(questions, min(len(questions), session_size))
     # セッションに問題セットを記録
     session[SESSION_KEY] = {
         "category": category_id,
@@ -81,7 +82,11 @@ def api_answer():
     if question is None:
         return jsonify({"error": "question not found"}), 404
 
-    is_correct = question["answer_index"] == answer_index
+    # kanji_read 型は親が正誤を判定して is_correct を直接送信する
+    if question.get("type") == "kanji_read":
+        is_correct = bool(data.get("is_correct", False))
+    else:
+        is_correct = question["answer_index"] == answer_index
 
     # DB保存
     db_path = current_app.config["DB_PATH"]
@@ -105,8 +110,9 @@ def api_answer():
 
     return jsonify({
         "is_correct": is_correct,
-        "correct_index": question["answer_index"],
+        "correct_index": question.get("answer_index"),
         "explanation": question.get("explanation", ""),
+        "reading": question.get("reading", ""),
         "score_so_far": state.get("score", 0),
         "new_achievements": new_achievements,
     })
