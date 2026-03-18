@@ -17,7 +17,15 @@
           ],
           "answer_index": 0,
           "explanation": "えんぴつのほうが ながいね！",
-          "hint": "てに もって くらべてみよう"
+          "hint": "てに もって くらべてみよう",
+          "diagram": {
+            "type": "comparison_bar",
+            "items": [
+              { "label": "えんぴつ", "value": 17, "unit": "cm" },
+              { "label": "けしごむ", "value": 5, "unit": "cm" }
+            ],
+            "highlight_index": 0
+          }
         },
         {
           "id": "len_1_002",
@@ -30,7 +38,15 @@
           ],
           "answer_index": 1,
           "explanation": "くれよんのほうが みじかいね！",
-          "hint": "どちらが ちいさいかな？"
+          "hint": "どちらが ちいさいかな？",
+          "diagram": {
+            "type": "comparison_bar",
+            "items": [
+              { "label": "はさみ", "value": 15, "unit": "cm" },
+              { "label": "くれよん", "value": 10, "unit": "cm" }
+            ],
+            "highlight_index": 1
+          }
         },
         {
           "id": "len_1_003",
@@ -44,7 +60,16 @@
           ],
           "answer_index": 2,
           "explanation": "ものさし（30cm）が いちばん ながい！",
-          "hint": "かずが おおきいほど ながいよ"
+          "hint": "かずが おおきいほど ながいよ",
+          "diagram": {
+            "type": "comparison_bar",
+            "items": [
+              { "label": "えんぴつ", "value": 17, "unit": "cm" },
+              { "label": "けしごむ", "value": 5, "unit": "cm" },
+              { "label": "ものさし", "value": 30, "unit": "cm" }
+            ],
+            "highlight_index": 2
+          }
         },
         {
           "id": "len_1_004",
@@ -57,7 +82,15 @@
           ],
           "answer_index": 0,
           "explanation": "つくえのほうが たかいね！",
-          "hint": "きょうしつで みてみよう"
+          "hint": "きょうしつで みてみよう",
+          "diagram": {
+            "type": "comparison_bar",
+            "items": [
+              { "label": "つくえ", "value": 70, "unit": "cm" },
+              { "label": "いす", "value": 40, "unit": "cm" }
+            ],
+            "highlight_index": 0
+          }
         },
         {
           "id": "len_1_005",
@@ -70,7 +103,15 @@
           ],
           "answer_index": 1,
           "explanation": "ゆびのほうが みじかいね！",
-          "hint": "じぶんのてを みてみよう"
+          "hint": "じぶんのてを みてみよう",
+          "diagram": {
+            "type": "comparison_bar",
+            "items": [
+              { "label": "うで", "value": 60, "unit": "cm" },
+              { "label": "ゆび", "value": 7, "unit": "cm" }
+            ],
+            "highlight_index": 1
+          }
         },
         {
           "id": "len_1_006",
@@ -83,7 +124,15 @@
           ],
           "answer_index": 0,
           "explanation": "でんしゃのほうが ずっと ながいよ！",
-          "hint": "でんしゃは なんりょうも つながっているよ"
+          "hint": "でんしゃは なんりょうも つながっているよ",
+          "diagram": {
+            "type": "comparison_bar",
+            "items": [
+              { "label": "でんしゃ", "value": 20, "unit": "m" },
+              { "label": "じてんしゃ", "value": 2, "unit": "m" }
+            ],
+            "highlight_index": 0
+          }
         },
         {
           "id": "len_1_007",
@@ -97,7 +146,16 @@
           ],
           "answer_index": 1,
           "explanation": "えんぴつ（17cm）が いちばん みじかいよ！",
-          "hint": "かずが ちいさいほど みじかいよ"
+          "hint": "かずが ちいさいほど みじかいよ",
+          "diagram": {
+            "type": "comparison_bar",
+            "items": [
+              { "label": "つくえ", "value": 60, "unit": "cm" },
+              { "label": "えんぴつ", "value": 17, "unit": "cm" },
+              { "label": "ものさし", "value": 30, "unit": "cm" }
+            ],
+            "highlight_index": 1
+          }
         },
         {
           "id": "len_1_008",
@@ -110,7 +168,15 @@
           ],
           "answer_index": 0,
           "explanation": "ドアのほうが たかいよ！ ひとが とおれるくらい たかくないとね",
-          "hint": "ひとが とおれる たかさを かんがえよう"
+          "hint": "ひとが とおれる たかさを かんがえよう",
+          "diagram": {
+            "type": "comparison_bar",
+            "items": [
+              { "label": "ドア", "value": 200, "unit": "cm" },
+              { "label": "まど", "value": 100, "unit": "cm" }
+            ],
+            "highlight_index": 0
+          }
         },
         {
           "id": "len_1_009",
@@ -123,7 +189,15 @@
           ],
           "answer_index": 0,
           "explanation": "1m = 100cm だから 1mのほうが ながいよ！",
-          "hint": "1m は なんcm かな？"
+          "hint": "1m は なんcm かな？",
+          "diagram": {
+            "type": "comparison_bar",
+            "items": [
+              { "label": "1m", "value": 100, "unit": "cm" },
+              { "label": "50cm", "value": 50, "unit": "cm" }
+            ],
+            "highlight_index": 0
+          }
         },
         {
           "id": "len_1_010",
@@ -136,7 +210,15 @@
           ],
           "answer_index": 1,
           "explanation": "たいいくかんのほうが ずっと ひろいよ！",
-          "hint": "ボールが とんでも だいじょうぶな のは どっち？"
+          "hint": "ボールが とんでも だいじょうぶな のは どっち？",
+          "diagram": {
+            "type": "comparison_bar",
+            "items": [
+              { "label": "きょうしつ", "value": 50, "unit": "m²" },
+              { "label": "たいいくかん", "value": 500, "unit": "m²" }
+            ],
+            "highlight_index": 1
+          }
         }
       ]
     },
@@ -157,7 +239,14 @@
           ],
           "answer_index": 0,
           "explanation": "えんぴつは だいたい 17cm だよ",
-          "hint": "cm は せんちめーとる。ものさしの めもりだよ"
+          "hint": "cm は せんちめーとる。ものさしの めもりだよ",
+          "diagram": {
+            "type": "ruler",
+            "value": 17,
+            "unit": "cm",
+            "label": "えんぴつ",
+            "max_value": 30
+          }
         },
         {
           "id": "len_2_002",
@@ -171,7 +260,14 @@
           ],
           "answer_index": 1,
           "explanation": "つくえは だいたい 60cm だよ",
-          "hint": "mm は とても ちいさい。m は とても おおきい"
+          "hint": "mm は とても ちいさい。m は とても おおきい",
+          "diagram": {
+            "type": "ruler",
+            "value": 60,
+            "unit": "cm",
+            "label": "つくえ",
+            "max_value": 100
+          }
         },
         {
           "id": "len_2_003",
@@ -185,7 +281,14 @@
           ],
           "answer_index": 2,
           "explanation": "プールは 25m（にじゅうごめーとる）だよ！",
-          "hint": "プールは とても ながいよ"
+          "hint": "プールは とても ながいよ",
+          "diagram": {
+            "type": "ruler",
+            "value": 25,
+            "unit": "m",
+            "label": "プール",
+            "max_value": 30
+          }
         },
         {
           "id": "len_2_004",
@@ -199,7 +302,15 @@
           ],
           "answer_index": 1,
           "explanation": "1cm = 10mm だよ！",
-          "hint": "ものさしの いちばんちいさい めもりを かぞえてみよう"
+          "hint": "ものさしの いちばんちいさい めもりを かぞえてみよう",
+          "diagram": {
+            "type": "unit_scale",
+            "from_value": 1,
+            "from_unit": "cm",
+            "to_value": 10,
+            "to_unit": "mm",
+            "segments": 10
+          }
         },
         {
           "id": "len_2_005",
@@ -213,7 +324,14 @@
           ],
           "answer_index": 0,
           "explanation": "ありは とても ちいさくて だいたい 5mm だよ",
-          "hint": "mm は みりめーとる。とても ちいさい たんいだよ"
+          "hint": "mm は みりめーとる。とても ちいさい たんいだよ",
+          "diagram": {
+            "type": "ruler",
+            "value": 5,
+            "unit": "mm",
+            "label": "あり",
+            "max_value": 10
+          }
         },
         {
           "id": "len_2_006",
@@ -227,7 +345,14 @@
           ],
           "answer_index": 2,
           "explanation": "バスは だいたい 10m も あるよ！",
-          "hint": "バスは とても おおきい のりものだよ"
+          "hint": "バスは とても おおきい のりものだよ",
+          "diagram": {
+            "type": "ruler",
+            "value": 10,
+            "unit": "m",
+            "label": "バス",
+            "max_value": 15
+          }
         },
         {
           "id": "len_2_007",
@@ -241,7 +366,15 @@
           ],
           "answer_index": 1,
           "explanation": "1m = 100cm だよ！",
-          "hint": "ものさしが なんぼん ならぶかな？"
+          "hint": "ものさしが なんぼん ならぶかな？",
+          "diagram": {
+            "type": "unit_scale",
+            "from_value": 1,
+            "from_unit": "m",
+            "to_value": 100,
+            "to_unit": "cm",
+            "segments": 10
+          }
         },
         {
           "id": "len_2_008",
@@ -255,7 +388,14 @@
           ],
           "answer_index": 1,
           "explanation": "おとなの たかさは だいたい 170cm だよ！",
-          "hint": "おとなは cm で あらわすと ちょうどよいね"
+          "hint": "おとなは cm で あらわすと ちょうどよいね",
+          "diagram": {
+            "type": "ruler",
+            "value": 170,
+            "unit": "cm",
+            "label": "おとな",
+            "max_value": 200
+          }
         },
         {
           "id": "len_2_009",
@@ -269,7 +409,14 @@
           ],
           "answer_index": 0,
           "explanation": "1えんだまは だいたい 1mm の あつさだよ！",
-          "hint": "mm は とても ちいさい たんいだよ"
+          "hint": "mm は とても ちいさい たんいだよ",
+          "diagram": {
+            "type": "ruler",
+            "value": 1,
+            "unit": "mm",
+            "label": "1えんだま",
+            "max_value": 5
+          }
         },
         {
           "id": "len_2_010",
@@ -283,7 +430,14 @@
           ],
           "answer_index": 2,
           "explanation": "おおきな とりいは 10m くらい あるよ！",
-          "hint": "とても おおきい もの には どの たんい？"
+          "hint": "とても おおきい もの には どの たんい？",
+          "diagram": {
+            "type": "ruler",
+            "value": 10,
+            "unit": "m",
+            "label": "とりい",
+            "max_value": 15
+          }
         }
       ]
     },
@@ -304,7 +458,15 @@
           ],
           "answer_index": 1,
           "explanation": "1m = 100cm だよ！",
-          "hint": "ものさしが なんぼん ならぶかな？"
+          "hint": "ものさしが なんぼん ならぶかな？",
+          "diagram": {
+            "type": "unit_scale",
+            "from_value": 1,
+            "from_unit": "m",
+            "to_value": 100,
+            "to_unit": "cm",
+            "segments": 10
+          }
         },
         {
           "id": "len_3_002",
@@ -318,7 +480,15 @@
           ],
           "answer_index": 1,
           "explanation": "2m = 200cm だよ！ 1m = 100cm だから 2ばいだね",
-          "hint": "1m = 100cm を おもいだそう"
+          "hint": "1m = 100cm を おもいだそう",
+          "diagram": {
+            "type": "segment_bar",
+            "parts": [
+              { "value": 100, "label": "1m", "color": "#4ECDC4" },
+              { "value": 100, "label": "1m", "color": "#3BB5AC" }
+            ],
+            "total": { "value": 200, "unit": "cm" }
+          }
         },
         {
           "id": "len_3_003",
@@ -332,7 +502,15 @@
           ],
           "answer_index": 0,
           "explanation": "10mm = 1cm だから 30mm = 3cm だよ！",
-          "hint": "1cm = 10mm を おもいだそう"
+          "hint": "1cm = 10mm を おもいだそう",
+          "diagram": {
+            "type": "unit_scale",
+            "from_value": 30,
+            "from_unit": "mm",
+            "to_value": 3,
+            "to_unit": "cm",
+            "segments": 3
+          }
         },
         {
           "id": "len_3_004",
@@ -346,7 +524,15 @@
           ],
           "answer_index": 0,
           "explanation": "150cm = 1m（100cm）+ 50cm = 1m50cm だよ！",
-          "hint": "100cm = 1m だよ"
+          "hint": "100cm = 1m だよ",
+          "diagram": {
+            "type": "segment_bar",
+            "parts": [
+              { "value": 100, "label": "1m", "color": "#4ECDC4" },
+              { "value": 50, "label": "50cm", "color": "#FFE66D" }
+            ],
+            "total": { "value": 150, "unit": "cm" }
+          }
         },
         {
           "id": "len_3_005",
@@ -360,7 +546,15 @@
           ],
           "answer_index": 1,
           "explanation": "3m = 300cm だから 300 + 20 = 320cm だよ！",
-          "hint": "1m = 100cm。3m は なん cm かな？"
+          "hint": "1m = 100cm。3m は なん cm かな？",
+          "diagram": {
+            "type": "segment_bar",
+            "parts": [
+              { "value": 300, "label": "3m", "color": "#4ECDC4" },
+              { "value": 20, "label": "20cm", "color": "#FFE66D" }
+            ],
+            "total": { "value": 320, "unit": "cm" }
+          }
         },
         {
           "id": "len_3_006",
@@ -374,7 +568,15 @@
           ],
           "answer_index": 0,
           "explanation": "10mm = 1cm だから 40mm = 4cm だよ！",
-          "hint": "10mm で 1cm だよ"
+          "hint": "10mm で 1cm だよ",
+          "diagram": {
+            "type": "unit_scale",
+            "from_value": 40,
+            "from_unit": "mm",
+            "to_value": 4,
+            "to_unit": "cm",
+            "segments": 4
+          }
         },
         {
           "id": "len_3_007",
@@ -388,7 +590,15 @@
           ],
           "answer_index": 2,
           "explanation": "2m = 200cm。200 + 50 = 250cm だよ！",
-          "hint": "まず 2m を cm に なおそう"
+          "hint": "まず 2m を cm に なおそう",
+          "diagram": {
+            "type": "segment_bar",
+            "parts": [
+              { "value": 200, "label": "2m", "color": "#4ECDC4" },
+              { "value": 50, "label": "50cm", "color": "#FFE66D" }
+            ],
+            "total": { "value": 250, "unit": "cm" }
+          }
         },
         {
           "id": "len_3_008",
@@ -402,7 +612,15 @@
           ],
           "answer_index": 1,
           "explanation": "100cm = 1m だから 250cm = 2m 50cm だよ！",
-          "hint": "100cm ごとに 1m だよ"
+          "hint": "100cm ごとに 1m だよ",
+          "diagram": {
+            "type": "segment_bar",
+            "parts": [
+              { "value": 200, "label": "2m", "color": "#4ECDC4" },
+              { "value": 50, "label": "50cm", "color": "#FFE66D" }
+            ],
+            "total": { "value": 250, "unit": "cm" }
+          }
         },
         {
           "id": "len_3_009",
@@ -416,7 +634,15 @@
           ],
           "answer_index": 1,
           "explanation": "17 + 30 = 47cm だよ！",
-          "hint": "2つの ながさを たそう"
+          "hint": "2つの ながさを たそう",
+          "diagram": {
+            "type": "segment_bar",
+            "parts": [
+              { "value": 17, "label": "えんぴつ", "color": "#4ECDC4" },
+              { "value": 30, "label": "ものさし", "color": "#FFE66D" }
+            ],
+            "total": { "value": 47, "unit": "cm" }
+          }
         },
         {
           "id": "len_3_010",
@@ -430,7 +656,15 @@
           ],
           "answer_index": 1,
           "explanation": "1m = 100cm = 1000mm だから 5m = 5000mm だよ！",
-          "hint": "1m = 1000mm だよ"
+          "hint": "1m = 1000mm だよ",
+          "diagram": {
+            "type": "unit_scale",
+            "from_value": 5,
+            "from_unit": "m",
+            "to_value": 5000,
+            "to_unit": "mm",
+            "segments": 5
+          }
         }
       ]
     }

@@ -162,7 +162,7 @@ export async function startQuiz(config) {
         // 全問終了
         window.location.href = resultUrl;
       }
-    });
+    }, q.diagram || null);
   }
 
   showQuestion(0);

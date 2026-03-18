@@ -3,13 +3,16 @@
  * フィードバック表示・パーティクル・スコア更新などの共通処理
  */
 
+import { renderDiagram } from "./diagram-renderer.js";
+
 /**
  * 正解・不正解フィードバックを表示する
  * @param {boolean} isCorrect
  * @param {string} explanation
  * @param {function} onNext - 「つぎへ」ボタン押下時のコールバック
+ * @param {object|null} [diagram] - 解説図データ（diagram-renderer.js の形式）
  */
-export function showFeedback(isCorrect, explanation, onNext) {
+export function showFeedback(isCorrect, explanation, onNext, diagram = null) {
   const feedbackEl = document.getElementById("feedback");
   const correctEl  = document.getElementById("feedback-correct");
   const incorrectEl = document.getElementById("feedback-incorrect");
@@ -39,6 +42,19 @@ export function showFeedback(isCorrect, explanation, onNext) {
     explanationEl.textContent = explanation || "";
   }
 
+  // 解説図を描画
+  const diagramEl = document.getElementById("feedback-diagram");
+  if (diagramEl) {
+    diagramEl.innerHTML = "";
+    const svg = renderDiagram(diagram);
+    if (svg) {
+      diagramEl.appendChild(svg);
+      diagramEl.hidden = false;
+    } else {
+      diagramEl.hidden = true;
+    }
+  }
+
   // 「つぎへ」ボタンのハンドラを付け替え
   if (nextBtn) {
     const newBtn = nextBtn.cloneNode(true);
@@ -59,6 +75,8 @@ export function hideFeedback() {
   const incorrectEl = document.getElementById("feedback-incorrect");
   if (correctEl)  { correctEl.hidden = false; correctEl.classList.remove("is-active"); }
   if (incorrectEl){ incorrectEl.hidden = false; incorrectEl.classList.remove("is-active"); }
+  const diagramEl = document.getElementById("feedback-diagram");
+  if (diagramEl) { diagramEl.innerHTML = ""; diagramEl.hidden = true; }
 }
 
 /**
