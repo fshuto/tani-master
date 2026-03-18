@@ -162,6 +162,19 @@
 .feedback__mark { font-size: 3rem; display: block; margin-bottom: 8px; }
 .feedback__text { font-size: 1.3rem; font-weight: 900; margin-bottom: 8px; }
 .feedback__explanation { font-size: 1rem; color: var(--color-text-light); }
+.feedback__diagram {
+  width: 100%;
+  padding: 12px 8px;
+  background: #F5FAFA;
+  border-radius: var(--radius-md);
+  border: 2px dashed #4ECDC4;
+}
+.feedback__diagram .diagram-svg {
+  display: block;
+  font-family: var(--font-family);
+  max-width: 300px;
+  margin: 0 auto;
+}
 
 /* ---------- ヒント ---------- */
 .quiz-hint { display: flex; flex-direction: column; align-items: center; gap: 12px; }
